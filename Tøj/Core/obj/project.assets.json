@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\umutn\\RiderProjects\\Tøj\\Core\\Core.csproj",
+      "projectUniqueName": "C:\\Users\\umutn\\RiderProjects\\WorkShop\\Tøj\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "C:\\Users\\umutn\\RiderProjects\\Tøj\\Core\\Core.csproj",
+      "projectPath": "C:\\Users\\umutn\\RiderProjects\\WorkShop\\Tøj\\Core\\Core.csproj",
       "packagesPath": "C:\\Users\\umutn\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\umutn\\RiderProjects\\Tøj\\Core\\obj\\",
+      "outputPath": "C:\\Users\\umutn\\RiderProjects\\WorkShop\\Tøj\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\umutn\\AppData\\Roaming\\NuGet\\NuGet.Config"

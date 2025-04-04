@@ -1,0 +1,19 @@
+﻿@page "/laanside"
+@using Core
+<PageTitle>Lånside</PageTitle>
+<h1>Se dine lånemuligheder her</h1>
+
+<ul class="list-group">
+@foreach (var Clothingid in Clothing)
+{
+    <li class="list-group-item">Type: @Clothing.Type Ejer: @Clothing.ClothingId<button @bind-value="LaaneKnap">Lån</button></li>
+    
+}
+</ul>
+
+
+@code {
+        
+    
+
+}
