@@ -2,9 +2,9 @@
 
 namespace Tøj.Services;
 
-public interface IBikeService
+public interface IClothingServices
 {
-    Task<BEBike[]> GetAll();
-    Task Add(BEBike bike);
+    Task<Clothing[]> GetAll();
+    Task Add(Clothing Clothing);
     Task DeleteById(int id);
 }

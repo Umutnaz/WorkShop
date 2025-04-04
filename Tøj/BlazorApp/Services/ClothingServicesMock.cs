@@ -2,26 +2,26 @@
 
 namespace Tøj.Services;
 
-public class BikeServiceMock : IBikeService
+public class ClothingServicesMock : IClothingServices
 {
-    private List<BEBike> bikes = new();
+    private List<Clothing> Clothings = new();
     
-    public async Task<BEBike[]> GetAll()
+    public async Task<Clothing[]> GetAll()
     {
-        return bikes.ToArray();
+        return Clothings.ToArray();
     }
 
-    public async Task Add(BEBike bike)
+    public async Task Add(Clothing Clothing)
     {
         int max = 0;
-        if (bikes.Count > 0)
-            max = bikes.Select(b => b.Id).Max();
-        bike.Id = max + 1;
-        bikes.Add(bike);
+        if (Clothings.Count > 0)
+            max = Clothings.Select(b => b.ClothingId).Max();
+        Clothing.ClothingId = max + 1;
+        Clothings.Add(Clothing);
     }
 
     public async Task DeleteById(int id)
     {
-        bikes.RemoveAll(bike => bike.Id == id);
+        Clothings.RemoveAll(Clothing => Clothing.ClothingId == id);
     }
 }
