@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\umutn\\RiderProjects\\WorkShop\\Tøj\\BlazorApp\\BlazorApp.csproj": {}
+    "/Users/MortenStaunstrup/src/WorkShop/Tøj/BlazorApp/BlazorApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\umutn\\RiderProjects\\WorkShop\\Tøj\\BlazorApp\\BlazorApp.csproj": {
+    "/Users/MortenStaunstrup/src/WorkShop/Tøj/BlazorApp/BlazorApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\umutn\\RiderProjects\\WorkShop\\Tøj\\BlazorApp\\BlazorApp.csproj",
+        "projectUniqueName": "/Users/MortenStaunstrup/src/WorkShop/Tøj/BlazorApp/BlazorApp.csproj",
         "projectName": "BlazorApp",
-        "projectPath": "C:\\Users\\umutn\\RiderProjects\\WorkShop\\Tøj\\BlazorApp\\BlazorApp.csproj",
-        "packagesPath": "C:\\Users\\umutn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\umutn\\RiderProjects\\WorkShop\\Tøj\\BlazorApp\\obj\\",
+        "projectPath": "/Users/MortenStaunstrup/src/WorkShop/Tøj/BlazorApp/BlazorApp.csproj",
+        "packagesPath": "/Users/MortenStaunstrup/.nuget/packages/",
+        "outputPath": "/Users/MortenStaunstrup/src/WorkShop/Tøj/BlazorApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\umutn\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/MortenStaunstrup/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -26,8 +26,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\umutn\\RiderProjects\\WorkShop\\Tøj\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\umutn\\RiderProjects\\WorkShop\\Tøj\\Core\\Core.csproj"
+              "/Users/MortenStaunstrup/src/WorkShop/Tøj/Core/Core.csproj": {
+                "projectPath": "/Users/MortenStaunstrup/src/WorkShop/Tøj/Core/Core.csproj"
               }
             }
           }
@@ -42,7 +42,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -64,13 +64,13 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.2, )",
+              "version": "[9.0.0, )",
               "autoReferenced": true
             },
             "Microsoft.NET.Sdk.WebAssembly.Pack": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.2, )",
+              "version": "[9.0.0, )",
               "autoReferenced": true
             }
           },
@@ -88,7 +88,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[9.0.2, 9.0.2]"
+              "version": "[9.0.0, 9.0.0]"
             }
           ],
           "frameworkReferences": {
@@ -96,7 +96,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -105,17 +105,17 @@
         }
       }
     },
-    "C:\\Users\\umutn\\RiderProjects\\WorkShop\\Tøj\\Core\\Core.csproj": {
+    "/Users/MortenStaunstrup/src/WorkShop/Tøj/Core/Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\umutn\\RiderProjects\\WorkShop\\Tøj\\Core\\Core.csproj",
+        "projectUniqueName": "/Users/MortenStaunstrup/src/WorkShop/Tøj/Core/Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\umutn\\RiderProjects\\WorkShop\\Tøj\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\umutn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\umutn\\RiderProjects\\WorkShop\\Tøj\\Core\\obj\\",
+        "projectPath": "/Users/MortenStaunstrup/src/WorkShop/Tøj/Core/Core.csproj",
+        "packagesPath": "/Users/MortenStaunstrup/.nuget/packages/",
+        "outputPath": "/Users/MortenStaunstrup/src/WorkShop/Tøj/Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\umutn\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/MortenStaunstrup/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -139,7 +139,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -160,7 +160,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

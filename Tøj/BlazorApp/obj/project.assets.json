@@ -432,13 +432,13 @@
           }
         }
       },
-      "Microsoft.NET.ILLink.Tasks/9.0.2": {
+      "Microsoft.NET.ILLink.Tasks/9.0.0": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Microsoft.NET.Sdk.WebAssembly.Pack/9.0.2": {
+      "Microsoft.NET.Sdk.WebAssembly.Pack/9.0.0": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.props": {},
@@ -887,13 +887,13 @@
           }
         }
       },
-      "Microsoft.NET.ILLink.Tasks/9.0.2": {
+      "Microsoft.NET.ILLink.Tasks/9.0.0": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Microsoft.NET.Sdk.WebAssembly.Pack/9.0.2": {
+      "Microsoft.NET.Sdk.WebAssembly.Pack/9.0.0": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.props": {},
@@ -1714,10 +1714,10 @@
         "microsoft.jsinterop.webassembly.nuspec"
       ]
     },
-    "Microsoft.NET.ILLink.Tasks/9.0.2": {
-      "sha512": "+KFnCLVPicEq99ko0tq+ycTvNLXHw0tImmTZjPloB/DOFLPT56KLfk5aS7wbgXRPzYhXTTBYLGaABea5mke77w==",
+    "Microsoft.NET.ILLink.Tasks/9.0.0": {
+      "sha512": "zAwp213evC3UkimtVXRb+Dlgc/40QG145nmZDtp2LO9zJJMfrp+i/87BnXN7tRXEA4liyzdFkjqG1HE8/RPb4A==",
       "type": "package",
-      "path": "microsoft.net.illink.tasks/9.0.2",
+      "path": "microsoft.net.illink.tasks/9.0.0",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -1731,7 +1731,7 @@
         "build/Microsoft.NET.ILLink.Analyzers.props",
         "build/Microsoft.NET.ILLink.Tasks.props",
         "build/Microsoft.NET.ILLink.targets",
-        "microsoft.net.illink.tasks.9.0.2.nupkg.sha512",
+        "microsoft.net.illink.tasks.9.0.0.nupkg.sha512",
         "microsoft.net.illink.tasks.nuspec",
         "tools/net472/ILLink.Tasks.dll",
         "tools/net472/ILLink.Tasks.dll.config",
@@ -1765,10 +1765,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.NET.Sdk.WebAssembly.Pack/9.0.2": {
-      "sha512": "svOs6YArbcpL06ZWj+b4hNVlJC5m37ydSgS+1XJWJzQu5fdT7ToEOaik1yiNo9AD357PBEiUJWTlrIcwdF8IeA==",
+    "Microsoft.NET.Sdk.WebAssembly.Pack/9.0.0": {
+      "sha512": "Ch6dilt/TAo3XryG/9LF8Zy4rAT+2HYnks8thWAeNzPNOJs4aSyC6E5yxuBiN49d2eES78h1mSR/KNyOfbptXQ==",
       "type": "package",
-      "path": "microsoft.net.sdk.webassembly.pack/9.0.2",
+      "path": "microsoft.net.sdk.webassembly.pack/9.0.0",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -1799,7 +1799,7 @@
         "build/Microsoft.NET.Sdk.WebAssembly.Pack.targets",
         "build/Wasm.web.config",
         "build/browser.runtimeconfig.template.json",
-        "microsoft.net.sdk.webassembly.pack.9.0.2.nupkg.sha512",
+        "microsoft.net.sdk.webassembly.pack.9.0.0.nupkg.sha512",
         "microsoft.net.sdk.webassembly.pack.nuspec",
         "tools/net472/Microsoft.NET.Sdk.WebAssembly.Pack.Tasks.dll",
         "tools/net472/Microsoft.NET.WebAssembly.Webcil.dll",
@@ -1819,24 +1819,24 @@
       "Core >= 1.0.0",
       "Microsoft.AspNetCore.Components.WebAssembly >= 9.0.2",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 9.0.2",
-      "Microsoft.NET.ILLink.Tasks >= 9.0.2",
-      "Microsoft.NET.Sdk.WebAssembly.Pack >= 9.0.2"
+      "Microsoft.NET.ILLink.Tasks >= 9.0.0",
+      "Microsoft.NET.Sdk.WebAssembly.Pack >= 9.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\umutn\\.nuget\\packages\\": {}
+    "/Users/MortenStaunstrup/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\umutn\\RiderProjects\\WorkShop\\Tøj\\BlazorApp\\BlazorApp.csproj",
+      "projectUniqueName": "/Users/MortenStaunstrup/src/WorkShop/Tøj/BlazorApp/BlazorApp.csproj",
       "projectName": "BlazorApp",
-      "projectPath": "C:\\Users\\umutn\\RiderProjects\\WorkShop\\Tøj\\BlazorApp\\BlazorApp.csproj",
-      "packagesPath": "C:\\Users\\umutn\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\umutn\\RiderProjects\\WorkShop\\Tøj\\BlazorApp\\obj\\",
+      "projectPath": "/Users/MortenStaunstrup/src/WorkShop/Tøj/BlazorApp/BlazorApp.csproj",
+      "packagesPath": "/Users/MortenStaunstrup/.nuget/packages/",
+      "outputPath": "/Users/MortenStaunstrup/src/WorkShop/Tøj/BlazorApp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\umutn\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/MortenStaunstrup/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -1848,8 +1848,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\umutn\\RiderProjects\\WorkShop\\Tøj\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\umutn\\RiderProjects\\WorkShop\\Tøj\\Core\\Core.csproj"
+            "/Users/MortenStaunstrup/src/WorkShop/Tøj/Core/Core.csproj": {
+              "projectPath": "/Users/MortenStaunstrup/src/WorkShop/Tøj/Core/Core.csproj"
             }
           }
         }
@@ -1864,7 +1864,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net9.0": {
@@ -1886,13 +1886,13 @@
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[9.0.2, )",
+            "version": "[9.0.0, )",
             "autoReferenced": true
           },
           "Microsoft.NET.Sdk.WebAssembly.Pack": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[9.0.2, )",
+            "version": "[9.0.0, )",
             "autoReferenced": true
           }
         },
@@ -1910,7 +1910,7 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-            "version": "[9.0.2, 9.0.2]"
+            "version": "[9.0.0, 9.0.0]"
           }
         ],
         "frameworkReferences": {
@@ -1918,7 +1918,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {
