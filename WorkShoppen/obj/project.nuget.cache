@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "0k7pBAXlyTY=",
+  "dgSpecHash": "7OiGQV5sU88=",
   "success": true,
   "projectFilePath": "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/WorkShoppen.csproj",
   "expectedPackageFiles": [
+    "/Users/MortenStaunstrup/.nuget/packages/blazored.localstorage/4.5.0/blazored.localstorage.4.5.0.nupkg.sha512",
     "/Users/MortenStaunstrup/.nuget/packages/microsoft.aspnetcore.authorization/9.0.3/microsoft.aspnetcore.authorization.9.0.3.nupkg.sha512",
     "/Users/MortenStaunstrup/.nuget/packages/microsoft.aspnetcore.components/9.0.3/microsoft.aspnetcore.components.9.0.3.nupkg.sha512",
     "/Users/MortenStaunstrup/.nuget/packages/microsoft.aspnetcore.components.analyzers/9.0.3/microsoft.aspnetcore.components.analyzers.9.0.3.nupkg.sha512",
