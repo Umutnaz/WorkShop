@@ -1762,11 +1762,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/MortenStaunstrup/RiderProjects/WorkShoppen/WorkShoppen/WorkShoppen.csproj",
+      "projectUniqueName": "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/WorkShoppen.csproj",
       "projectName": "WorkShoppen",
-      "projectPath": "/Users/MortenStaunstrup/RiderProjects/WorkShoppen/WorkShoppen/WorkShoppen.csproj",
+      "projectPath": "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/WorkShoppen.csproj",
       "packagesPath": "/Users/MortenStaunstrup/.nuget/packages/",
-      "outputPath": "/Users/MortenStaunstrup/RiderProjects/WorkShoppen/WorkShoppen/obj/",
+      "outputPath": "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/MortenStaunstrup/.nuget/NuGet/NuGet.Config"

@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "WorkShoppen",
   "resources": {
-    "hash": "sha256-7Bz6o/EHs8uDT2NSO2b+CmWbejbMejOdxeAE2R3EUfI=",
+    "hash": "sha256-oupiVi2rWqqqQcnB9ReJPvU8VWPk8NgzGuIwhrYLnKI=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Authorization.da83xzpz5r.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.vmzb2angnn.wasm": "Microsoft.AspNetCore.Components.wasm",
@@ -201,8 +201,8 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "WorkShoppen.q5mihj47k5.wasm": "WorkShoppen.wasm",
-      "WorkShoppen.zhh7zikon7.pdb": "WorkShoppen.pdb"
+      "WorkShoppen.1ztvsibx24.wasm": "WorkShoppen.wasm",
+      "WorkShoppen.37xq30jwks.pdb": "WorkShoppen.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.1p93gcv9fh.js": "sha256-1UPiprzN3JhPftx3be7XEMaYlUN+chRF41CuttiWVtQ="
@@ -412,10 +412,10 @@
       "WindowsBase.ag32297siy.wasm": "sha256-BgyZxTgdU9rIYlNC9ZMiMjnvBAJSL0eQH8Y87o1M+q4=",
       "mscorlib.vt9pwshhot.wasm": "sha256-/aFxOaPc1iTNlJw0z4/RGEMD0nzl4qVE3SF4wMsLgp0=",
       "netstandard.or41gtprh3.wasm": "sha256-nD1KqAI5YYz+YohqHaZ5EmXi7Eq9Uy9sUknnI8sj1AM=",
-      "WorkShoppen.q5mihj47k5.wasm": "sha256-UuLMi0HjaZD6hBgFTv1jMx9DE3cdaob1TG9hSkoFHcc="
+      "WorkShoppen.1ztvsibx24.wasm": "sha256-fb2RbPxOtKV8snOMO12DlDcG+wkk5V8Cz1wn/eBCk/U="
     },
     "pdb": {
-      "WorkShoppen.zhh7zikon7.pdb": "sha256-Vx9cquBLDKFiiDOP/zSrxlgw7uFgIzMbVqHs+Syql84="
+      "WorkShoppen.37xq30jwks.pdb": "sha256-jz16emjUfBkgH1ZJhjRUVvQY5bwdDTNLWZQzsXv6GV8="
     }
   },
   "cacheBootResources": true,

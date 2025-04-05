@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wVvmU5YJQug=",
+  "dgSpecHash": "0k7pBAXlyTY=",
   "success": true,
-  "projectFilePath": "/Users/MortenStaunstrup/RiderProjects/WorkShoppen/WorkShoppen/WorkShoppen.csproj",
+  "projectFilePath": "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/WorkShoppen.csproj",
   "expectedPackageFiles": [
     "/Users/MortenStaunstrup/.nuget/packages/microsoft.aspnetcore.authorization/9.0.3/microsoft.aspnetcore.authorization.9.0.3.nupkg.sha512",
     "/Users/MortenStaunstrup/.nuget/packages/microsoft.aspnetcore.components/9.0.3/microsoft.aspnetcore.components.9.0.3.nupkg.sha512",
