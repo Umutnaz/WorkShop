@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "n76OoLZ6KhDlv4snSAF3eqlIMhngqTR6NvfmplRqvz4=",
+  "Hash": "7JwgVT7ZMyriY8Dk7p1LmLlCdOaEOq9GhhcpOZXZWDI=",
   "Source": "WorkShoppen",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "4uun1vjl1k",
-      "Integrity": "JBfBzLSsYQGxFrOAp5GhDXFn6jgDnQDGhX/NUCWKP1o=",
+      "Fingerprint": "d82mutwap3",
+      "Integrity": "M1kF3P2Aa665R8k5ML7P+o/cflHAqYH36agnnflwAlY=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj/Debug/net9.0/blazor.boot.json"
@@ -4273,8 +4273,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "37xq30jwks",
-      "Integrity": "jz16emjUfBkgH1ZJhjRUVvQY5bwdDTNLWZQzsXv6GV8=",
+      "Fingerprint": "8crocnh6kt",
+      "Integrity": "mIcIYp0R9S3qRR1UYB/2dCp2Sr645/ok38Q37jyJtXE=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj/Debug/net9.0/WorkShoppen.pdb"
@@ -4294,8 +4294,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "1ztvsibx24",
-      "Integrity": "fb2RbPxOtKV8snOMO12DlDcG+wkk5V8Cz1wn/eBCk/U=",
+      "Fingerprint": "677wa2pzh2",
+      "Integrity": "jjHfNxchnrqP/SWsneJ74KR19hguRgyXKogZv38ma8s=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/obj/Debug/net9.0/webcil/WorkShoppen.wasm"
@@ -4322,12 +4322,12 @@
       "OriginalItemSpec": "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/bin/Debug/net9.0/wwwroot/_framework/dotnet.js"
     },
     {
-      "Identity": "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/obj/Debug/net9.0/compressed/040rcbpks2-1ztvsibx24.gz",
+      "Identity": "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/obj/Debug/net9.0/compressed/040rcbpks2-677wa2pzh2.gz",
       "SourceId": "WorkShoppen",
       "SourceType": "Computed",
       "ContentRoot": "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "_framework/WorkShoppen#[.{fingerprint=1ztvsibx24}]!.wasm.gz",
+      "RelativePath": "_framework/WorkShoppen#[.{fingerprint=677wa2pzh2}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -4336,8 +4336,8 @@
       "RelatedAsset": "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/bin/Debug/net9.0/wwwroot/_framework/WorkShoppen.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "n84l45g7oq",
-      "Integrity": "SX/AowNwgbWuZdgaP4SDsL1364ipRmqVZ5RrsnbPYEI=",
+      "Fingerprint": "tgocb8e868",
+      "Integrity": "3fHi0KXduCto1LuO1TWj++A6I5WYZ7YHCMYGx9RQ4KM=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/bin/Debug/net9.0/wwwroot/_framework/WorkShoppen.wasm"
@@ -5246,12 +5246,12 @@
       "OriginalItemSpec": "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/bin/Debug/net9.0/wwwroot/_framework/System.Linq.Expressions.wasm"
     },
     {
-      "Identity": "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/obj/Debug/net9.0/compressed/67rjh5gfex-37xq30jwks.gz",
+      "Identity": "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/obj/Debug/net9.0/compressed/67rjh5gfex-8crocnh6kt.gz",
       "SourceId": "WorkShoppen",
       "SourceType": "Computed",
       "ContentRoot": "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "_framework/WorkShoppen#[.{fingerprint=37xq30jwks}]!.pdb.gz",
+      "RelativePath": "_framework/WorkShoppen#[.{fingerprint=8crocnh6kt}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -5260,8 +5260,8 @@
       "RelatedAsset": "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/bin/Debug/net9.0/wwwroot/_framework/WorkShoppen.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "iyz8opucsk",
-      "Integrity": "9pt9Mq4uGUmjwIclMwDAhDhBuVQJqe7jqn4m82MSm2Y=",
+      "Fingerprint": "1o8dr05r0p",
+      "Integrity": "34fSm0lh1XGeXj82bf0lVgFtbzJPueDoSP3Y94TQmzo=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/bin/Debug/net9.0/wwwroot/_framework/WorkShoppen.pdb"
@@ -9383,7 +9383,7 @@
       "OriginalItemSpec": "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/bin/Debug/net9.0/wwwroot/_framework/netstandard.wasm"
     },
     {
-      "Identity": "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/obj/Debug/net9.0/compressed/yzqyp9d2jy-4uun1vjl1k.gz",
+      "Identity": "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/obj/Debug/net9.0/compressed/yzqyp9d2jy-d82mutwap3.gz",
       "SourceId": "WorkShoppen",
       "SourceType": "Computed",
       "ContentRoot": "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/obj/Debug/net9.0/compressed/",
@@ -9397,8 +9397,8 @@
       "RelatedAsset": "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "dvp5qfweii",
-      "Integrity": "x3d+1cq+6cXPOl3+jn2cunvumMhU6hpC7GTq6O0P6wc=",
+      "Fingerprint": "zo2j36gwfm",
+      "Integrity": "nbA1ggVVJpy9pj7eaU715WTOTJ8Sma5hFtFu6psQ6rc=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json"
@@ -10705,7 +10705,46 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JBfBzLSsYQGxFrOAp5GhDXFn6jgDnQDGhX/NUCWKP1o=\""
+          "Value": "\"M1kF3P2Aa665R8k5ML7P+o/cflHAqYH36agnnflwAlY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 16:23:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-M1kF3P2Aa665R8k5ML7P+o/cflHAqYH36agnnflwAlY="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/blazor.boot.json",
+      "AssetFile": "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/obj/Debug/net9.0/compressed/yzqyp9d2jy-d82mutwap3.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000081327261"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12295"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nbA1ggVVJpy9pj7eaU715WTOTJ8Sma5hFtFu6psQ6rc=\""
         },
         {
           "Name": "Last-Modified",
@@ -10714,45 +10753,6 @@
         {
           "Name": "Cache-Control",
           "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-JBfBzLSsYQGxFrOAp5GhDXFn6jgDnQDGhX/NUCWKP1o="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/blazor.boot.json",
-      "AssetFile": "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/obj/Debug/net9.0/compressed/yzqyp9d2jy-4uun1vjl1k.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000081307423"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "12298"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"x3d+1cq+6cXPOl3+jn2cunvumMhU6hpC7GTq6O0P6wc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 05 Apr 2025 16:12:06 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -10768,19 +10768,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"JBfBzLSsYQGxFrOAp5GhDXFn6jgDnQDGhX/NUCWKP1o=\""
+          "Value": "W/\"M1kF3P2Aa665R8k5ML7P+o/cflHAqYH36agnnflwAlY=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-JBfBzLSsYQGxFrOAp5GhDXFn6jgDnQDGhX/NUCWKP1o="
+          "Value": "sha256-M1kF3P2Aa665R8k5ML7P+o/cflHAqYH36agnnflwAlY="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/obj/Debug/net9.0/compressed/yzqyp9d2jy-4uun1vjl1k.gz",
+      "AssetFile": "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/obj/Debug/net9.0/compressed/yzqyp9d2jy-d82mutwap3.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10789,7 +10789,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12298"
+          "Value": "12295"
         },
         {
           "Name": "Content-Type",
@@ -10797,11 +10797,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"x3d+1cq+6cXPOl3+jn2cunvumMhU6hpC7GTq6O0P6wc=\""
+          "Value": "\"nbA1ggVVJpy9pj7eaU715WTOTJ8Sma5hFtFu6psQ6rc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 05 Apr 2025 16:12:06 GMT"
+          "Value": "Sat, 05 Apr 2025 16:22:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10819,7 +10819,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-x3d+1cq+6cXPOl3+jn2cunvumMhU6hpC7GTq6O0P6wc="
+          "Value": "sha256-nbA1ggVVJpy9pj7eaU715WTOTJ8Sma5hFtFu6psQ6rc="
         }
       ]
     },
@@ -70561,7 +70561,7 @@
       ]
     },
     {
-      "Route": "_framework/WorkShoppen.1ztvsibx24.wasm",
+      "Route": "_framework/WorkShoppen.677wa2pzh2.wasm",
       "AssetFile": "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/bin/Debug/net9.0/wwwroot/_framework/WorkShoppen.wasm",
       "Selectors": [],
       "ResponseHeaders": [
@@ -70579,11 +70579,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fb2RbPxOtKV8snOMO12DlDcG+wkk5V8Cz1wn/eBCk/U=\""
+          "Value": "\"jjHfNxchnrqP/SWsneJ74KR19hguRgyXKogZv38ma8s=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 05 Apr 2025 16:22:44 GMT"
+          "Value": "Sat, 05 Apr 2025 16:23:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -70593,7 +70593,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "1ztvsibx24"
+          "Value": "677wa2pzh2"
         },
         {
           "Name": "label",
@@ -70601,18 +70601,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-fb2RbPxOtKV8snOMO12DlDcG+wkk5V8Cz1wn/eBCk/U="
+          "Value": "sha256-jjHfNxchnrqP/SWsneJ74KR19hguRgyXKogZv38ma8s="
         }
       ]
     },
     {
-      "Route": "_framework/WorkShoppen.1ztvsibx24.wasm",
-      "AssetFile": "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/obj/Debug/net9.0/compressed/040rcbpks2-1ztvsibx24.gz",
+      "Route": "_framework/WorkShoppen.677wa2pzh2.wasm",
+      "AssetFile": "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/obj/Debug/net9.0/compressed/040rcbpks2-677wa2pzh2.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000128419160"
+          "Quality": "0.000128551228"
         }
       ],
       "ResponseHeaders": [
@@ -70622,15 +70622,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7786"
+          "Value": "7778"
         },
         {
           "Name": "ETag",
-          "Value": "\"SX/AowNwgbWuZdgaP4SDsL1364ipRmqVZ5RrsnbPYEI=\""
+          "Value": "\"3fHi0KXduCto1LuO1TWj++A6I5WYZ7YHCMYGx9RQ4KM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 05 Apr 2025 16:22:45 GMT"
+          "Value": "Sat, 05 Apr 2025 16:23:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -70650,13 +70650,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"fb2RbPxOtKV8snOMO12DlDcG+wkk5V8Cz1wn/eBCk/U=\""
+          "Value": "W/\"jjHfNxchnrqP/SWsneJ74KR19hguRgyXKogZv38ma8s=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "1ztvsibx24"
+          "Value": "677wa2pzh2"
         },
         {
           "Name": "label",
@@ -70664,13 +70664,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-fb2RbPxOtKV8snOMO12DlDcG+wkk5V8Cz1wn/eBCk/U="
+          "Value": "sha256-jjHfNxchnrqP/SWsneJ74KR19hguRgyXKogZv38ma8s="
         }
       ]
     },
     {
-      "Route": "_framework/WorkShoppen.1ztvsibx24.wasm.gz",
-      "AssetFile": "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/obj/Debug/net9.0/compressed/040rcbpks2-1ztvsibx24.gz",
+      "Route": "_framework/WorkShoppen.677wa2pzh2.wasm.gz",
+      "AssetFile": "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/obj/Debug/net9.0/compressed/040rcbpks2-677wa2pzh2.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -70679,7 +70679,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7786"
+          "Value": "7778"
         },
         {
           "Name": "Content-Type",
@@ -70687,11 +70687,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"SX/AowNwgbWuZdgaP4SDsL1364ipRmqVZ5RrsnbPYEI=\""
+          "Value": "\"3fHi0KXduCto1LuO1TWj++A6I5WYZ7YHCMYGx9RQ4KM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 05 Apr 2025 16:22:45 GMT"
+          "Value": "Sat, 05 Apr 2025 16:23:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -70709,7 +70709,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "1ztvsibx24"
+          "Value": "677wa2pzh2"
         },
         {
           "Name": "label",
@@ -70717,12 +70717,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-SX/AowNwgbWuZdgaP4SDsL1364ipRmqVZ5RrsnbPYEI="
+          "Value": "sha256-3fHi0KXduCto1LuO1TWj++A6I5WYZ7YHCMYGx9RQ4KM="
         }
       ]
     },
     {
-      "Route": "_framework/WorkShoppen.37xq30jwks.pdb",
+      "Route": "_framework/WorkShoppen.8crocnh6kt.pdb",
       "AssetFile": "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/bin/Debug/net9.0/wwwroot/_framework/WorkShoppen.pdb",
       "Selectors": [],
       "ResponseHeaders": [
@@ -70740,11 +70740,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jz16emjUfBkgH1ZJhjRUVvQY5bwdDTNLWZQzsXv6GV8=\""
+          "Value": "\"mIcIYp0R9S3qRR1UYB/2dCp2Sr645/ok38Q37jyJtXE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 05 Apr 2025 16:22:44 GMT"
+          "Value": "Sat, 05 Apr 2025 16:23:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -70754,7 +70754,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "37xq30jwks"
+          "Value": "8crocnh6kt"
         },
         {
           "Name": "label",
@@ -70762,18 +70762,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-jz16emjUfBkgH1ZJhjRUVvQY5bwdDTNLWZQzsXv6GV8="
+          "Value": "sha256-mIcIYp0R9S3qRR1UYB/2dCp2Sr645/ok38Q37jyJtXE="
         }
       ]
     },
     {
-      "Route": "_framework/WorkShoppen.37xq30jwks.pdb",
-      "AssetFile": "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/obj/Debug/net9.0/compressed/67rjh5gfex-37xq30jwks.gz",
+      "Route": "_framework/WorkShoppen.8crocnh6kt.pdb",
+      "AssetFile": "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/obj/Debug/net9.0/compressed/67rjh5gfex-8crocnh6kt.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000058969218"
+          "Quality": "0.000058972696"
         }
       ],
       "ResponseHeaders": [
@@ -70783,15 +70783,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "16957"
+          "Value": "16956"
         },
         {
           "Name": "ETag",
-          "Value": "\"9pt9Mq4uGUmjwIclMwDAhDhBuVQJqe7jqn4m82MSm2Y=\""
+          "Value": "\"34fSm0lh1XGeXj82bf0lVgFtbzJPueDoSP3Y94TQmzo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 05 Apr 2025 16:22:45 GMT"
+          "Value": "Sat, 05 Apr 2025 16:23:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -70811,13 +70811,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"jz16emjUfBkgH1ZJhjRUVvQY5bwdDTNLWZQzsXv6GV8=\""
+          "Value": "W/\"mIcIYp0R9S3qRR1UYB/2dCp2Sr645/ok38Q37jyJtXE=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "37xq30jwks"
+          "Value": "8crocnh6kt"
         },
         {
           "Name": "label",
@@ -70825,13 +70825,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-jz16emjUfBkgH1ZJhjRUVvQY5bwdDTNLWZQzsXv6GV8="
+          "Value": "sha256-mIcIYp0R9S3qRR1UYB/2dCp2Sr645/ok38Q37jyJtXE="
         }
       ]
     },
     {
-      "Route": "_framework/WorkShoppen.37xq30jwks.pdb.gz",
-      "AssetFile": "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/obj/Debug/net9.0/compressed/67rjh5gfex-37xq30jwks.gz",
+      "Route": "_framework/WorkShoppen.8crocnh6kt.pdb.gz",
+      "AssetFile": "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/obj/Debug/net9.0/compressed/67rjh5gfex-8crocnh6kt.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -70840,7 +70840,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "16957"
+          "Value": "16956"
         },
         {
           "Name": "Content-Type",
@@ -70848,11 +70848,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"9pt9Mq4uGUmjwIclMwDAhDhBuVQJqe7jqn4m82MSm2Y=\""
+          "Value": "\"34fSm0lh1XGeXj82bf0lVgFtbzJPueDoSP3Y94TQmzo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 05 Apr 2025 16:22:45 GMT"
+          "Value": "Sat, 05 Apr 2025 16:23:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -70870,7 +70870,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "37xq30jwks"
+          "Value": "8crocnh6kt"
         },
         {
           "Name": "label",
@@ -70878,7 +70878,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-9pt9Mq4uGUmjwIclMwDAhDhBuVQJqe7jqn4m82MSm2Y="
+          "Value": "sha256-34fSm0lh1XGeXj82bf0lVgFtbzJPueDoSP3Y94TQmzo="
         }
       ]
     },
@@ -70901,11 +70901,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jz16emjUfBkgH1ZJhjRUVvQY5bwdDTNLWZQzsXv6GV8=\""
+          "Value": "\"mIcIYp0R9S3qRR1UYB/2dCp2Sr645/ok38Q37jyJtXE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 05 Apr 2025 16:22:44 GMT"
+          "Value": "Sat, 05 Apr 2025 16:23:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -70915,18 +70915,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-jz16emjUfBkgH1ZJhjRUVvQY5bwdDTNLWZQzsXv6GV8="
+          "Value": "sha256-mIcIYp0R9S3qRR1UYB/2dCp2Sr645/ok38Q37jyJtXE="
         }
       ]
     },
     {
       "Route": "_framework/WorkShoppen.pdb",
-      "AssetFile": "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/obj/Debug/net9.0/compressed/67rjh5gfex-37xq30jwks.gz",
+      "AssetFile": "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/obj/Debug/net9.0/compressed/67rjh5gfex-8crocnh6kt.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000058969218"
+          "Quality": "0.000058972696"
         }
       ],
       "ResponseHeaders": [
@@ -70936,15 +70936,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "16957"
+          "Value": "16956"
         },
         {
           "Name": "ETag",
-          "Value": "\"9pt9Mq4uGUmjwIclMwDAhDhBuVQJqe7jqn4m82MSm2Y=\""
+          "Value": "\"34fSm0lh1XGeXj82bf0lVgFtbzJPueDoSP3Y94TQmzo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 05 Apr 2025 16:22:45 GMT"
+          "Value": "Sat, 05 Apr 2025 16:23:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -70964,19 +70964,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"jz16emjUfBkgH1ZJhjRUVvQY5bwdDTNLWZQzsXv6GV8=\""
+          "Value": "W/\"mIcIYp0R9S3qRR1UYB/2dCp2Sr645/ok38Q37jyJtXE=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-jz16emjUfBkgH1ZJhjRUVvQY5bwdDTNLWZQzsXv6GV8="
+          "Value": "sha256-mIcIYp0R9S3qRR1UYB/2dCp2Sr645/ok38Q37jyJtXE="
         }
       ]
     },
     {
       "Route": "_framework/WorkShoppen.pdb.gz",
-      "AssetFile": "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/obj/Debug/net9.0/compressed/67rjh5gfex-37xq30jwks.gz",
+      "AssetFile": "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/obj/Debug/net9.0/compressed/67rjh5gfex-8crocnh6kt.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -70985,7 +70985,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "16957"
+          "Value": "16956"
         },
         {
           "Name": "Content-Type",
@@ -70993,11 +70993,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"9pt9Mq4uGUmjwIclMwDAhDhBuVQJqe7jqn4m82MSm2Y=\""
+          "Value": "\"34fSm0lh1XGeXj82bf0lVgFtbzJPueDoSP3Y94TQmzo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 05 Apr 2025 16:22:45 GMT"
+          "Value": "Sat, 05 Apr 2025 16:23:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -71015,7 +71015,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-9pt9Mq4uGUmjwIclMwDAhDhBuVQJqe7jqn4m82MSm2Y="
+          "Value": "sha256-34fSm0lh1XGeXj82bf0lVgFtbzJPueDoSP3Y94TQmzo="
         }
       ]
     },
@@ -71038,11 +71038,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fb2RbPxOtKV8snOMO12DlDcG+wkk5V8Cz1wn/eBCk/U=\""
+          "Value": "\"jjHfNxchnrqP/SWsneJ74KR19hguRgyXKogZv38ma8s=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 05 Apr 2025 16:22:44 GMT"
+          "Value": "Sat, 05 Apr 2025 16:23:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -71052,18 +71052,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-fb2RbPxOtKV8snOMO12DlDcG+wkk5V8Cz1wn/eBCk/U="
+          "Value": "sha256-jjHfNxchnrqP/SWsneJ74KR19hguRgyXKogZv38ma8s="
         }
       ]
     },
     {
       "Route": "_framework/WorkShoppen.wasm",
-      "AssetFile": "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/obj/Debug/net9.0/compressed/040rcbpks2-1ztvsibx24.gz",
+      "AssetFile": "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/obj/Debug/net9.0/compressed/040rcbpks2-677wa2pzh2.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000128419160"
+          "Quality": "0.000128551228"
         }
       ],
       "ResponseHeaders": [
@@ -71073,15 +71073,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7786"
+          "Value": "7778"
         },
         {
           "Name": "ETag",
-          "Value": "\"SX/AowNwgbWuZdgaP4SDsL1364ipRmqVZ5RrsnbPYEI=\""
+          "Value": "\"3fHi0KXduCto1LuO1TWj++A6I5WYZ7YHCMYGx9RQ4KM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 05 Apr 2025 16:22:45 GMT"
+          "Value": "Sat, 05 Apr 2025 16:23:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -71101,19 +71101,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"fb2RbPxOtKV8snOMO12DlDcG+wkk5V8Cz1wn/eBCk/U=\""
+          "Value": "W/\"jjHfNxchnrqP/SWsneJ74KR19hguRgyXKogZv38ma8s=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-fb2RbPxOtKV8snOMO12DlDcG+wkk5V8Cz1wn/eBCk/U="
+          "Value": "sha256-jjHfNxchnrqP/SWsneJ74KR19hguRgyXKogZv38ma8s="
         }
       ]
     },
     {
       "Route": "_framework/WorkShoppen.wasm.gz",
-      "AssetFile": "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/obj/Debug/net9.0/compressed/040rcbpks2-1ztvsibx24.gz",
+      "AssetFile": "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/obj/Debug/net9.0/compressed/040rcbpks2-677wa2pzh2.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -71122,7 +71122,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7786"
+          "Value": "7778"
         },
         {
           "Name": "Content-Type",
@@ -71130,11 +71130,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"SX/AowNwgbWuZdgaP4SDsL1364ipRmqVZ5RrsnbPYEI=\""
+          "Value": "\"3fHi0KXduCto1LuO1TWj++A6I5WYZ7YHCMYGx9RQ4KM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 05 Apr 2025 16:22:45 GMT"
+          "Value": "Sat, 05 Apr 2025 16:23:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -71152,7 +71152,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-SX/AowNwgbWuZdgaP4SDsL1364ipRmqVZ5RrsnbPYEI="
+          "Value": "sha256-3fHi0KXduCto1LuO1TWj++A6I5WYZ7YHCMYGx9RQ4KM="
         }
       ]
     },

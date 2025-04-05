@@ -4,14 +4,14 @@
     "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/WorkShoppen.csproj": {}
   },
   "projects": {
-    "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/WorkShoppen.csproj": {
+    "/Users/MortenStaunstrup/src/WorkShop/Core/Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/WorkShoppen.csproj",
-        "projectName": "WorkShoppen",
-        "projectPath": "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/WorkShoppen.csproj",
+        "projectUniqueName": "/Users/MortenStaunstrup/src/WorkShop/Core/Core.csproj",
+        "projectName": "Core",
+        "projectPath": "/Users/MortenStaunstrup/src/WorkShop/Core/Core.csproj",
         "packagesPath": "/Users/MortenStaunstrup/.nuget/packages/",
-        "outputPath": "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/obj/",
+        "outputPath": "/Users/MortenStaunstrup/src/WorkShop/Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/MortenStaunstrup/.nuget/NuGet/NuGet.Config"
@@ -43,7 +43,74 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/WorkShoppen.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/WorkShoppen.csproj",
+        "projectName": "WorkShoppen",
+        "projectPath": "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/WorkShoppen.csproj",
+        "packagesPath": "/Users/MortenStaunstrup/.nuget/packages/",
+        "outputPath": "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/MortenStaunstrup/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/MortenStaunstrup/src/WorkShop/Core/Core.csproj": {
+                "projectPath": "/Users/MortenStaunstrup/src/WorkShop/Core/Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
           "dependencies": {
+            "Blazored.LocalStorage": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
               "version": "[9.0.3, )"

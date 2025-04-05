@@ -1484,10 +1484,6 @@
 /Users/MortenStaunstrup/src/WorkShop/WorkShoppen/bin/Debug/net9.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Web.ns1lctei4w.wasm.gz
 /Users/MortenStaunstrup/src/WorkShop/WorkShoppen/bin/Debug/net9.0/wwwroot/_framework/System.Text.Json.spqbvbiy0p.wasm.gz
 /Users/MortenStaunstrup/src/WorkShop/WorkShoppen/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json
-/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/bin/Debug/net9.0/wwwroot/_framework/WorkShoppen.37xq30jwks.pdb
-/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/bin/Debug/net9.0/wwwroot/_framework/WorkShoppen.1ztvsibx24.wasm
-/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/bin/Debug/net9.0/wwwroot/_framework/WorkShoppen.1ztvsibx24.wasm.gz
-/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/bin/Debug/net9.0/wwwroot/_framework/WorkShoppen.37xq30jwks.pdb.gz
 /Users/MortenStaunstrup/src/WorkShop/WorkShoppen/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json.gz
 /Users/MortenStaunstrup/src/WorkShop/WorkShoppen/bin/Debug/net9.0/WorkShoppen.staticwebassets.runtime.json
 /Users/MortenStaunstrup/src/WorkShop/WorkShoppen/bin/Debug/net9.0/WorkShoppen.staticwebassets.endpoints.json
@@ -2148,9 +2144,6 @@
 /Users/MortenStaunstrup/src/WorkShop/WorkShoppen/obj/Debug/net9.0/compressed/0sptfgcfow-tjcz0u77k5.gz
 /Users/MortenStaunstrup/src/WorkShop/WorkShoppen/obj/Debug/net9.0/compressed/ebkwg8jyzc-tptq2av103.gz
 /Users/MortenStaunstrup/src/WorkShop/WorkShoppen/obj/Debug/net9.0/compressed/8p21g0bsfw-lfu7j35m59.gz
-/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/obj/Debug/net9.0/compressed/040rcbpks2-1ztvsibx24.gz
-/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/obj/Debug/net9.0/compressed/67rjh5gfex-37xq30jwks.gz
-/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/obj/Debug/net9.0/compressed/yzqyp9d2jy-4uun1vjl1k.gz
 /Users/MortenStaunstrup/src/WorkShop/WorkShoppen/obj/Debug/net9.0/staticwebassets.build.json
 /Users/MortenStaunstrup/src/WorkShop/WorkShoppen/obj/Debug/net9.0/staticwebassets.development.json
 /Users/MortenStaunstrup/src/WorkShop/WorkShoppen/obj/Debug/net9.0/staticwebassets.build.endpoints.json
@@ -2165,3 +2158,10 @@
 /Users/MortenStaunstrup/src/WorkShop/WorkShoppen/obj/Debug/net9.0/refint/WorkShoppen.dll
 /Users/MortenStaunstrup/src/WorkShop/WorkShoppen/obj/Debug/net9.0/WorkShoppen.pdb
 /Users/MortenStaunstrup/src/WorkShop/WorkShoppen/obj/Debug/net9.0/ref/WorkShoppen.dll
+/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/bin/Debug/net9.0/wwwroot/_framework/WorkShoppen.8crocnh6kt.pdb
+/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/bin/Debug/net9.0/wwwroot/_framework/WorkShoppen.677wa2pzh2.wasm
+/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/bin/Debug/net9.0/wwwroot/_framework/WorkShoppen.677wa2pzh2.wasm.gz
+/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/bin/Debug/net9.0/wwwroot/_framework/WorkShoppen.8crocnh6kt.pdb.gz
+/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/obj/Debug/net9.0/compressed/040rcbpks2-677wa2pzh2.gz
+/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/obj/Debug/net9.0/compressed/67rjh5gfex-8crocnh6kt.gz
+/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/obj/Debug/net9.0/compressed/yzqyp9d2jy-d82mutwap3.gz
