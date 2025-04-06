@@ -1,0 +1,41 @@
+@page "/login/{target:alpha}"
+@using WorkShoppen.Service.Interfaces
+@inject ILoginService loginService
+@inject NavigationManager navMan
+<h3>Login</h3>
+
+<span>Username:</span>
+<InputText @bind-Value="@username" placeholder="Write your username"></InputText>
+<span>Password:</span>
+<InputText @bind-Value="@password" placeholder="Write your password" type="password"></InputText>
+<button @onclick="OnClickLogin">Login</button>
+<p style="color: red">@errorText</p>
+
+@code {
+    string username = "";
+    string password = "";
+    string errorText = "";
+
+    [Parameter] public string target { get; set; }
+
+    private async Task OnClickLogin()
+    {
+        if (username == null || username == "")
+        {
+            errorText = "Please write a username";
+            return;
+        }
+        if (password == null || password == "")
+        {
+            errorText = "Please write a password";
+            return;
+        }
+        var sucess = await loginService.Login(username, password);
+        if (!sucess)
+            errorText = "No match found - retry ...";
+        else
+            navMan.NavigateTo(target);
+
+    }
+
+}

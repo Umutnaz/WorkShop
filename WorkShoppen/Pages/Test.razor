@@ -1,0 +1,40 @@
+@page "/test"
+@inject NavigationManager navMan
+@using WorkShoppen.Service.Interfaces
+@using Core
+<h3>Test</h3>
+
+@if (_clothes == null)
+{
+    <p>Loading clothes...</p>
+}
+else
+{
+    <ol>
+        @foreach (var article in _clothes)
+        {
+            <li>@article.Name, @article.Description, @article.Size</li>
+        }
+    </ol>
+}
+
+
+
+@code {
+    Clothing[]? _clothes;
+
+    User? currentUser;
+
+    [Inject] IClothingService _clothingService { get; set; }
+    [Inject] ILoginService loginService { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        currentUser = await loginService.GetUserLoggedIn();
+        if (currentUser == null)
+            navMan.NavigateTo("login/test");
+        
+        _clothes = await _clothingService.GetAllClothing();
+    }
+
+}
