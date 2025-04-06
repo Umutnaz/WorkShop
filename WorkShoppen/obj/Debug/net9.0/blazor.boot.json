@@ -1,8 +1,9 @@
 {
   "mainAssemblyName": "WorkShoppen",
   "resources": {
-    "hash": "sha256-RLKakEPGeM4J/adE+1gp9If9ZoTdjdysbKOsveoWNhk=",
+    "hash": "sha256-XbEEpAsyOFJnDUzDiVWz3ldNPjp9pW7/Swz+MCOClDo=",
     "fingerprinting": {
+      "Blazored.LocalStorage.12n6dz54qr.wasm": "Blazored.LocalStorage.wasm",
       "Microsoft.AspNetCore.Authorization.da83xzpz5r.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.vmzb2angnn.wasm": "Microsoft.AspNetCore.Components.wasm",
       "Microsoft.AspNetCore.Components.Forms.qji3ksdopo.wasm": "Microsoft.AspNetCore.Components.Forms.wasm",
@@ -201,8 +202,10 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "WorkShoppen.677wa2pzh2.wasm": "WorkShoppen.wasm",
-      "WorkShoppen.8crocnh6kt.pdb": "WorkShoppen.pdb"
+      "Core.9o6rcysdoe.wasm": "Core.wasm",
+      "Core.k6ly1zjcrd.pdb": "Core.pdb",
+      "WorkShoppen.yw7t980mp7.wasm": "WorkShoppen.wasm",
+      "WorkShoppen.8wpsso3p1z.pdb": "WorkShoppen.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.1p93gcv9fh.js": "sha256-1UPiprzN3JhPftx3be7XEMaYlUN+chRF41CuttiWVtQ="
@@ -223,6 +226,7 @@
       "System.Private.CoreLib.gdne0axslz.wasm": "sha256-1OU1YKgOeX1+SJh4arMvQthG0Pk1cugP2GYSbyEBt08="
     },
     "assembly": {
+      "Blazored.LocalStorage.12n6dz54qr.wasm": "sha256-OaMAAd5n7ORfyur5e3QIyEVKJ76MKIvwbg7/icnnYcU=",
       "Microsoft.AspNetCore.Authorization.da83xzpz5r.wasm": "sha256-tckgv/MbZGhlQfELwFmF6c8AHefXpinSSGgVkwYNK64=",
       "Microsoft.AspNetCore.Components.vmzb2angnn.wasm": "sha256-2Vz45dtNjFTXSkiqYQg0Pa4U2MxnfB8sdZh5eqjv7BM=",
       "Microsoft.AspNetCore.Components.Forms.qji3ksdopo.wasm": "sha256-ptQ/S1bZkXB+KSMcXrzvNNGsZKvlpvT9eEEl5AZnsBU=",
@@ -412,10 +416,12 @@
       "WindowsBase.ag32297siy.wasm": "sha256-BgyZxTgdU9rIYlNC9ZMiMjnvBAJSL0eQH8Y87o1M+q4=",
       "mscorlib.vt9pwshhot.wasm": "sha256-/aFxOaPc1iTNlJw0z4/RGEMD0nzl4qVE3SF4wMsLgp0=",
       "netstandard.or41gtprh3.wasm": "sha256-nD1KqAI5YYz+YohqHaZ5EmXi7Eq9Uy9sUknnI8sj1AM=",
-      "WorkShoppen.677wa2pzh2.wasm": "sha256-jjHfNxchnrqP/SWsneJ74KR19hguRgyXKogZv38ma8s="
+      "Core.9o6rcysdoe.wasm": "sha256-d1HgujtFuWXw/UkTDCWZ323HzlEL53675XG/9fHsYos=",
+      "WorkShoppen.yw7t980mp7.wasm": "sha256-UhZ/ebzsSloMDJKd97lTyJt+TYridpU4JiviBxFtckA="
     },
     "pdb": {
-      "WorkShoppen.8crocnh6kt.pdb": "sha256-mIcIYp0R9S3qRR1UYB/2dCp2Sr645/ok38Q37jyJtXE="
+      "Core.k6ly1zjcrd.pdb": "sha256-vNwOlCBW9Gsrfan95P9qT8bpeKFL2Gs8L0KldVnhKKM=",
+      "WorkShoppen.8wpsso3p1z.pdb": "sha256-GN6vFbJJingdEmwdtOUDNRDXGbfogY/NVFt770qPUzU="
     }
   },
   "cacheBootResources": true,

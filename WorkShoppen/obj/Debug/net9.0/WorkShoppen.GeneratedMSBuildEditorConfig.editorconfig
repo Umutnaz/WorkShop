@@ -28,8 +28,20 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/Pages/CreateUserPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ3JlYXRlVXNlclBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/Pages/LoginPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTG9naW5QYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/Pages/Test.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVGVzdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/_Imports.razor]
