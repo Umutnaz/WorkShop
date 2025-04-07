@@ -100,5 +100,10 @@ namespace WorkShoppen.Service
                 clothing.LoanerId = null;
             }
         }
+
+        public void resetLoanId(int loanId)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

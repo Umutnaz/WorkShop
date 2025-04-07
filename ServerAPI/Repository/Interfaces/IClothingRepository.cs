@@ -9,4 +9,5 @@ public interface IClothingRepository
     Task<Clothing[]> GetClothingByOwnerId(int ownerId);
     Task<Clothing> GetClothingById(int clothingId);
     void UpdateClothingById(int clothingId, Clothing updatedClothing);
+    void resetLoanId(int loanId);
 }

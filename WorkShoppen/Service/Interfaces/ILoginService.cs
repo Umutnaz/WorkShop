@@ -8,4 +8,5 @@ public interface ILoginService
     void CreateUser(User user);
     int GetUserIdMax();
     Task Logout();
+    string getUsernameById(int? userId);
 }

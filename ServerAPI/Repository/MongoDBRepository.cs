@@ -1,5 +1,6 @@
 using ServerAPI.Repository.Interfaces;
 using Core;
+using MongoDB.Bson;
 using MongoDB.Driver;
 
 namespace ServerAPI.Repository;
@@ -75,5 +76,15 @@ public class MongoDBRepository : IClothingRepository
         var filter = Builders<Clothing>.Filter.Eq("ClothingId", clothingId);
         collection.ReplaceOne(filter, updatedClothing);
     }
-    
+
+    public async void resetLoanId(int clothingId)
+    {
+        var database = _client.GetDatabase("Clothingdb");
+        var collection = database.GetCollection<Clothing>("clothing");
+        
+        var filter = Builders<Clothing>.Filter.Eq("ClothingId", clothingId);
+        var update = Builders<Clothing>.Update.Set("LoanId", BsonNull.Value);
+        
+        await collection.UpdateOneAsync(filter, update);
+    }
 }

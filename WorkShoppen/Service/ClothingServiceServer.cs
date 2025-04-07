@@ -44,4 +44,9 @@ public class ClothingServiceServer : IClothingService
     {
         client.PutAsJsonAsync($"{baseUrl}/update/{clothingId}", updatedClothing);
     }
+
+    public void resetLoanId(int clothingId)
+    {
+        client.PutAsJsonAsync<Clothing>($"{baseUrl}/resetloan/{clothingId}", null);
+    }
 }

@@ -11,5 +11,6 @@ namespace WorkShoppen.Service.Interfaces
         void AddClothing(Clothing clothing, int userId); // Tilføj tøj til en bruger (fejl med userId?)
         void DeleteClothingById(int clothingId); // Slet tøj via ID
         void UpdateClothingById(int clothingId, Clothing updatedClothing); // Opdater tøj
+        void resetLoanId(int clothingId);
     }
 }

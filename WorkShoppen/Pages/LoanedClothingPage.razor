@@ -5,7 +5,7 @@
 @inject IClothingService _clothingService
 @inject ILoginService loginService
 
-<h3>Mine Lånte Tøj</h3>
+<h3>Tøj du låner</h3>
 
 @if (_loanedClothes == null)
 {
@@ -18,12 +18,12 @@ else if (_loanedClothes.Length == 0)
 else
 {
     <div>
-        <h4>Her er dit lånte tøj:</h4>
         <ul>
             @foreach (var article in _loanedClothes)
             {
                 <li>
-                    @article.Name - @article.Description (Størrelse: @article.Size)
+                    @article.Name - @article.Description (Størrelse: @article.Size) lånes af @getUser(article.OwnerId)
+                    <button @onclick="() => giveBack(article.ClothingId)">Giv tilbage</button>
                 </li>
             }
         </ul>
@@ -46,5 +46,18 @@ else
         // Hent alle tøjstykker og filtrer dem for at vise kun de lånte stykker
         var allClothes = await _clothingService.GetAllClothing();
         _loanedClothes = allClothes.Where(c => c.LoanerId == currentUser.UserId).ToArray();
+    }
+    
+    private string getUser(int? userId)
+    {
+        if (userId == null)
+            return "No one";
+
+        return loginService.getUsernameById(userId);
+    }
+
+    private void giveBack(int clothingId)
+    {
+        _clothingService.resetLoanId(clothingId);
     }
 }

@@ -56,5 +56,12 @@ public class ClothingController : ControllerBase
     {
         _repository.UpdateClothingById(clothingId, updatedClothing);
     }
+
+    [HttpPut]
+    [Route("resetloan/{clothingId:int}")]
+    public void resetLoanId(int clothingId)
+    {
+        _repository.resetLoanId(clothingId);
+    }
     
 }

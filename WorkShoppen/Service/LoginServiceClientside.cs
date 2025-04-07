@@ -69,6 +69,11 @@ public class LoginServiceClientside : ILoginService
         users.Add(user);
     }
 
+    public string getUsernameById(int? userId)
+    {
+        return users.First(x => x.UserId == userId).Username;
+    }
+
     public int GetUserIdMax()
     {
         return users.Max(x => x.UserId);

@@ -33,7 +33,7 @@ else
                         <td>@item.Color</td>
                         <td>@item.Size</td>
                         <td>@item.Description</td>
-                        <td>@(item.LoanerId.HasValue ? $"Bruger ID: {item.LoanerId}" : "-")</td>
+                        <td>@(item.LoanerId.HasValue ? $"{getUser(item.LoanerId)}" : "-")</td>
                         <td>
                             <button class="btn btn-danger btn-sm" @onclick="@(() => DeleteClothing(item.ClothingId))">Slet</button>
                         </td>
@@ -73,4 +73,13 @@ else
         _clothes = await _clothingService.GetAllClothing(); // Opdater view
         StateHasChanged();
     }
+
+    private string getUser(int? userId)
+    {
+        if (userId == null)
+            return "No one";
+
+        return loginService.getUsernameById(userId);
+    }
+
 }

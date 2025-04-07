@@ -18,10 +18,10 @@ else
         <ul>
             @foreach (var article in _clothes)
             {
-                if (article.OwnerId != currentUser?.UserId)  // Kun vis tøj, der tilhører veninderne
+                if (article.OwnerId != currentUser?.UserId && article.LoanerId == null)  // Kun vis tøj, der tilhører veninderne
                 {
                     <li>
-                        @article.Name - @article.Description (Størrelse: @article.Size)
+                        @article.Name - @article.Description (Størrelse: @article.Size) - udlånes af @getUser(article.OwnerId)
                         <button @onclick="() => LoanClothing(article.ClothingId)">Lån</button>
                     </li>
                 }
@@ -62,5 +62,13 @@ else
                 navMan.NavigateTo("/test");
             }
         }
+    }
+    
+    private string getUser(int? userId)
+    {
+        if (userId == null)
+            return "No one";
+
+        return loginService.getUsernameById(userId);
     }
 }
