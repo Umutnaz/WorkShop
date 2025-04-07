@@ -83,7 +83,7 @@ public class MongoDBRepository : IClothingRepository
         var collection = database.GetCollection<Clothing>("clothing");
         
         var filter = Builders<Clothing>.Filter.Eq("ClothingId", clothingId);
-        var update = Builders<Clothing>.Update.Set("LoanId", BsonNull.Value);
+        var update = Builders<Clothing>.Update.Set("LoanerId", BsonNull.Value);
         
         await collection.UpdateOneAsync(filter, update);
     }

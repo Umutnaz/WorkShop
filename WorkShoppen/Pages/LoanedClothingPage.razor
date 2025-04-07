@@ -22,7 +22,7 @@ else
             @foreach (var article in _loanedClothes)
             {
                 <li>
-                    @article.Name - @article.Description (Størrelse: @article.Size) lånes af @getUser(article.OwnerId)
+                    @article.Name - @article.Description (Størrelse: @article.Size) Ejer er @getUser(article.OwnerId)
                     <button @onclick="() => giveBack(article.ClothingId)">Giv tilbage</button>
                 </li>
             }
@@ -56,8 +56,11 @@ else
         return loginService.getUsernameById(userId);
     }
 
-    private void giveBack(int clothingId)
+    private async void giveBack(int clothingId)
     {
         _clothingService.resetLoanId(clothingId);
+        var result = await _clothingService.GetAllClothing();
+        _loanedClothes = result.Where(c => c.LoanerId == currentUser.UserId).ToArray();
+        StateHasChanged();
     }
 }
