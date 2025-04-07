@@ -14,41 +14,44 @@ else
     <div class="table-container">
         <table>
             <thead>
-                <tr>
-                    <th>Navn</th>
-                    <th>Type</th>
-                    <th>Farve</th>
-                    <th>Størrelse</th>
-                    <th>Beskrivelse</th>
-                    <th>Udlejes til</th>
-                    <th>Handlinger</th>
-                </tr>
+            <tr>
+                <th style="background-color: rgba(243,171,207,0.86); color: white;">Navn</th>
+                <th style="background-color: rgba(243,171,207,0.86); color: white;">Type</th>
+                <th style="background-color: rgba(243,171,207,0.86); color: white;">Farve</th>
+                <th style="background-color: rgba(243,171,207,0.86); color: white;">Størrelse</th>
+                <th style="background-color: rgba(243,171,207,0.86); color: white;">Beskrivelse</th>
+                <th style="background-color: rgba(243,171,207,0.86); color: white;">Udlejes til</th>
+                <th style="background-color: rgba(243,171,207,0.86); color: white;">Handlinger</th>
+            </tr>
             </thead>
             <tbody>
-                @foreach (var item in _clothes.Where(c => c.OwnerId == _currentUser?.UserId))
-                {
-                    <tr>
-                        <td>@item.Name</td>
-                        <td>@item.Type</td>
-                        <td>@item.Color</td>
-                        <td>@item.Size</td>
-                        <td>@item.Description</td>
-                        <td>@(item.LoanerId.HasValue ? $"Bruger ID: {item.LoanerId}" : "-")</td>
-                        <td>
-                            <button class="btn btn-danger btn-sm" @onclick="@(() => DeleteClothing(item.ClothingId))">Slet</button>
-                        </td>
-                    </tr>
-                }
+            @foreach (var item in _clothes.Where(c => c.OwnerId == _currentUser?.UserId))
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.Type</td>
+                    <td>@item.Color</td>
+                    <td>@item.Size</td>
+                    <td>@item.Description</td>
+                    <td>@(item.LoanerId.HasValue ? $"Bruger ID: {item.LoanerId}" : "-")</td>
+                    <td>
+                        <button @onclick="@(() => DeleteClothing(item.ClothingId))" style="background-color: rgba(243,171,207,0.86); color: white;">Slet</button>
+                    </td>
+                </tr>
+            }
             </tbody>
         </table>
     </div>
+
+
 }
 
 <div class="button-container">
-    <button @onclick="@(() => navMan.NavigateTo("/addclothing"))">Tilføj</button>
-    <button @onclick="@(() => navMan.NavigateTo("/laan"))">Lån</button>
-    <button @onclick="@(() => navMan.NavigateTo("/Loanedclothing"))">Låne-tøj</button>
+    <button @onclick="@(() => navMan.NavigateTo("/addclothing"))" style="background-color: rgba(243,171,207,0.86); color: white;">Tilføj</button>
+    <button @onclick="@(() => navMan.NavigateTo("/laan"))" style="background-color: rgba(243,171,207,0.86); color: white;">Lån</button>
+    <button @onclick="@(() => navMan.NavigateTo("/Loanedclothing"))" style="background-color: rgba(243,171,207,0.86); color: white;">Låne-tøj</button>
 </div>
+
 
 @code {
     Clothing[]? _clothes;
@@ -70,7 +73,7 @@ else
     private async Task DeleteClothing(int clothingId)
     {
         _clothingService.DeleteClothingById(clothingId);
-        _clothes = await _clothingService.GetAllClothing(); // Opdater view
+        _clothes = await _clothingService.GetAllClothing(); 
         StateHasChanged();
     }
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "O9sqtGS9skUK2dUcJedgtExM5/9x0VgUpBlyC0Oajcw=",
+  "Hash": "i11kam3q1XYL1Ow7sVthsfntXQ2WH8nqEptIhLOmbiY=",
   "Source": "WorkShoppen",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "sxuf9pbti1",
-      "Integrity": "YOd0xL+Z3YFj4hqm91DKroGipjx88ALDdwLG09x2ELQ=",
+      "Fingerprint": "jve6w6sxg4",
+      "Integrity": "MXeb9TOvqaOnfbwJJ9HqstMHFL/Alw5gePmDUI4fNLs=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\blazor.boot.json"
@@ -94,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "j55gwx6mah",
-      "Integrity": "F6IQNPx9AqRsKbR3OX43hxfLs40LQ9+6zUDIVz8mpdY=",
+      "Fingerprint": "28u1vuvm5r",
+      "Integrity": "QnaYW9KNSto/+wUpLF8FJwiJzOeyqcEMRSV8q9zW7Jc=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\emann\\RiderProjects\\WorkShop\\Core\\bin\\Debug\\net9.0\\Core.pdb"
@@ -115,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "2kg65sb7h2",
-      "Integrity": "Uh4B+G63Ovcte0UI0fHRDhp+RXhEkRUcz9TcxHQVQ3I=",
+      "Fingerprint": "0bqds5kcly",
+      "Integrity": "lClOa0hr/ZmAcp5XLGOAS7+j9WYLlt0zuG+gBq24AUM=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\obj\\Debug\\net9.0\\webcil\\Core.wasm"
@@ -4441,8 +4441,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "iyhdxphlkk",
-      "Integrity": "KrEAcPHC5Jdksauabu8wj4YDPKax/6MAlgMfobJ7pKE=",
+      "Fingerprint": "n86rnu2lks",
+      "Integrity": "V2c9kVFjaxtOB/SdYxKn8UlM+QISrJf4a2T1qvWG8z4=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\WorkShoppen.pdb"
@@ -4462,8 +4462,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "z8hwa99wkc",
-      "Integrity": "U73KsfO3MispeZ03kT98vJ1Kf1s5cVobqaZGsFFLHko=",
+      "Fingerprint": "5650m44r9b",
+      "Integrity": "038PMDN1Jwn5hbzWIO41PgPU7bNFj1/XLbvlrjeaBec=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\obj\\Debug\\net9.0\\webcil\\WorkShoppen.wasm"
@@ -4511,12 +4511,12 @@
       "OriginalItemSpec": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\bin\\Debug\\net9.0\\wwwroot\\_framework\\dotnet.js"
     },
     {
-      "Identity": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\obj\\Debug\\net9.0\\compressed\\040rcbpks2-z8hwa99wkc.gz",
+      "Identity": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\obj\\Debug\\net9.0\\compressed\\040rcbpks2-5650m44r9b.gz",
       "SourceId": "WorkShoppen",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/WorkShoppen#[.{fingerprint=z8hwa99wkc}]!.wasm.gz",
+      "RelativePath": "_framework/WorkShoppen#[.{fingerprint=5650m44r9b}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -4525,8 +4525,8 @@
       "RelatedAsset": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\bin\\Debug\\net9.0\\wwwroot\\_framework\\WorkShoppen.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "hveouzhny9",
-      "Integrity": "s4RLnJIkig2r4CpxCmTipKUPlGjywl6u1UkvjDa8c3k=",
+      "Fingerprint": "agf1rjrzey",
+      "Integrity": "hmRxeUMAa2ew1n8BW60/V5jxWbQ0OFGn/9mFLRfhQgI=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\bin\\Debug\\net9.0\\wwwroot\\_framework\\WorkShoppen.wasm"
@@ -5456,12 +5456,12 @@
       "OriginalItemSpec": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Linq.Expressions.wasm"
     },
     {
-      "Identity": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\obj\\Debug\\net9.0\\compressed\\67rjh5gfex-iyhdxphlkk.gz",
+      "Identity": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\obj\\Debug\\net9.0\\compressed\\67rjh5gfex-n86rnu2lks.gz",
       "SourceId": "WorkShoppen",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/WorkShoppen#[.{fingerprint=iyhdxphlkk}]!.pdb.gz",
+      "RelativePath": "_framework/WorkShoppen#[.{fingerprint=n86rnu2lks}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -5470,8 +5470,8 @@
       "RelatedAsset": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\bin\\Debug\\net9.0\\wwwroot\\_framework\\WorkShoppen.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "ys01vt7q1c",
-      "Integrity": "rkKDjg208yuvi4wGyDZeyBVbAVac4fwS608uv0hVctc=",
+      "Fingerprint": "7ftvhtumrp",
+      "Integrity": "TbSUb5P4qa3EjBR3F8HMA6Cq7ZHKgqEWo0gMReoNNjA=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\bin\\Debug\\net9.0\\wwwroot\\_framework\\WorkShoppen.pdb"
@@ -6884,12 +6884,12 @@
       "OriginalItemSpec": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\obj\\Debug\\net9.0\\compressed\\fa37osnr3o-j55gwx6mah.gz",
+      "Identity": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\obj\\Debug\\net9.0\\compressed\\fa37osnr3o-28u1vuvm5r.gz",
       "SourceId": "WorkShoppen",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/Core#[.{fingerprint=j55gwx6mah}]!.pdb.gz",
+      "RelativePath": "_framework/Core#[.{fingerprint=28u1vuvm5r}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -6898,8 +6898,8 @@
       "RelatedAsset": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Core.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "kp4k5s8vvr",
-      "Integrity": "KFZ6SzEk2ECIMalqfDUc2m/lR2E1OQD80XoXmnsb4ww=",
+      "Fingerprint": "dwmnrhwa3y",
+      "Integrity": "rTLlBoDHc499jGEzsErCsvhm4bfMrPhLTfCehUacKhk=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Core.pdb"
@@ -9530,12 +9530,12 @@
       "OriginalItemSpec": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\obj\\Debug\\net9.0\\compressed\\wf9th6mjns-2kg65sb7h2.gz",
+      "Identity": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\obj\\Debug\\net9.0\\compressed\\wf9th6mjns-0bqds5kcly.gz",
       "SourceId": "WorkShoppen",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/Core#[.{fingerprint=2kg65sb7h2}]!.wasm.gz",
+      "RelativePath": "_framework/Core#[.{fingerprint=0bqds5kcly}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -9544,8 +9544,8 @@
       "RelatedAsset": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Core.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "3v7bk2086z",
-      "Integrity": "cSdeab0em+GtGVR84zI7c73D9HXV7P19OaC0U6FU5nA=",
+      "Fingerprint": "uq1dd03x8d",
+      "Integrity": "FueV5pPfqfp52Tjri8nJodbVTwR7c4lJXvC8YPKxA5w=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Core.wasm"
@@ -9782,7 +9782,7 @@
       "OriginalItemSpec": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\bin\\Debug\\net9.0\\wwwroot\\_framework\\netstandard.wasm"
     },
     {
-      "Identity": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\obj\\Debug\\net9.0\\compressed\\yzqyp9d2jy-sxuf9pbti1.gz",
+      "Identity": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\obj\\Debug\\net9.0\\compressed\\yzqyp9d2jy-jve6w6sxg4.gz",
       "SourceId": "WorkShoppen",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\obj\\Debug\\net9.0\\compressed\\",
@@ -9796,8 +9796,8 @@
       "RelatedAsset": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "c8cjupg1fb",
-      "Integrity": "VBmNpiQDRcHEIxwSTKqV09sSu5+36ic3jJI6yFmIFeI=",
+      "Fingerprint": "n7pqn9m2pb",
+      "Integrity": "Ix0d75cY06AwOMvwXIxg4BUbvmyXKK6Pt+Eohy9S7Vs=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -11104,11 +11104,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YOd0xL+Z3YFj4hqm91DKroGipjx88ALDdwLG09x2ELQ=\""
+          "Value": "\"MXeb9TOvqaOnfbwJJ9HqstMHFL/Alw5gePmDUI4fNLs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:52:18 GMT"
+          "Value": "Mon, 07 Apr 2025 11:19:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11118,13 +11118,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-YOd0xL+Z3YFj4hqm91DKroGipjx88ALDdwLG09x2ELQ="
+          "Value": "sha256-MXeb9TOvqaOnfbwJJ9HqstMHFL/Alw5gePmDUI4fNLs="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\obj\\Debug\\net9.0\\compressed\\yzqyp9d2jy-sxuf9pbti1.gz",
+      "AssetFile": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\obj\\Debug\\net9.0\\compressed\\yzqyp9d2jy-jve6w6sxg4.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -11143,11 +11143,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"VBmNpiQDRcHEIxwSTKqV09sSu5+36ic3jJI6yFmIFeI=\""
+          "Value": "\"Ix0d75cY06AwOMvwXIxg4BUbvmyXKK6Pt+Eohy9S7Vs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:48:18 GMT"
+          "Value": "Mon, 07 Apr 2025 11:17:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11167,19 +11167,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"YOd0xL+Z3YFj4hqm91DKroGipjx88ALDdwLG09x2ELQ=\""
+          "Value": "W/\"MXeb9TOvqaOnfbwJJ9HqstMHFL/Alw5gePmDUI4fNLs=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-YOd0xL+Z3YFj4hqm91DKroGipjx88ALDdwLG09x2ELQ="
+          "Value": "sha256-MXeb9TOvqaOnfbwJJ9HqstMHFL/Alw5gePmDUI4fNLs="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\obj\\Debug\\net9.0\\compressed\\yzqyp9d2jy-sxuf9pbti1.gz",
+      "AssetFile": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\obj\\Debug\\net9.0\\compressed\\yzqyp9d2jy-jve6w6sxg4.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11196,11 +11196,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"VBmNpiQDRcHEIxwSTKqV09sSu5+36ic3jJI6yFmIFeI=\""
+          "Value": "\"Ix0d75cY06AwOMvwXIxg4BUbvmyXKK6Pt+Eohy9S7Vs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:48:18 GMT"
+          "Value": "Mon, 07 Apr 2025 11:17:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11218,7 +11218,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-VBmNpiQDRcHEIxwSTKqV09sSu5+36ic3jJI6yFmIFeI="
+          "Value": "sha256-Ix0d75cY06AwOMvwXIxg4BUbvmyXKK6Pt+Eohy9S7Vs="
         }
       ]
     },
@@ -11658,7 +11658,7 @@
       ]
     },
     {
-      "Route": "_framework/Core.2kg65sb7h2.wasm",
+      "Route": "_framework/Core.0bqds5kcly.wasm",
       "AssetFile": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Core.wasm",
       "Selectors": [],
       "ResponseHeaders": [
@@ -11676,11 +11676,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Uh4B+G63Ovcte0UI0fHRDhp+RXhEkRUcz9TcxHQVQ3I=\""
+          "Value": "\"lClOa0hr/ZmAcp5XLGOAS7+j9WYLlt0zuG+gBq24AUM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:52:17 GMT"
+          "Value": "Mon, 07 Apr 2025 10:59:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11690,7 +11690,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "2kg65sb7h2"
+          "Value": "0bqds5kcly"
         },
         {
           "Name": "label",
@@ -11698,18 +11698,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Uh4B+G63Ovcte0UI0fHRDhp+RXhEkRUcz9TcxHQVQ3I="
+          "Value": "sha256-lClOa0hr/ZmAcp5XLGOAS7+j9WYLlt0zuG+gBq24AUM="
         }
       ]
     },
     {
-      "Route": "_framework/Core.2kg65sb7h2.wasm",
-      "AssetFile": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\obj\\Debug\\net9.0\\compressed\\wf9th6mjns-2kg65sb7h2.gz",
+      "Route": "_framework/Core.0bqds5kcly.wasm",
+      "AssetFile": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\obj\\Debug\\net9.0\\compressed\\wf9th6mjns-0bqds5kcly.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000361794501"
+          "Quality": "0.000361532899"
         }
       ],
       "ResponseHeaders": [
@@ -11719,15 +11719,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2763"
+          "Value": "2765"
         },
         {
           "Name": "ETag",
-          "Value": "\"cSdeab0em+GtGVR84zI7c73D9HXV7P19OaC0U6FU5nA=\""
+          "Value": "\"FueV5pPfqfp52Tjri8nJodbVTwR7c4lJXvC8YPKxA5w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:52:18 GMT"
+          "Value": "Mon, 07 Apr 2025 10:59:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11747,13 +11747,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Uh4B+G63Ovcte0UI0fHRDhp+RXhEkRUcz9TcxHQVQ3I=\""
+          "Value": "W/\"lClOa0hr/ZmAcp5XLGOAS7+j9WYLlt0zuG+gBq24AUM=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "2kg65sb7h2"
+          "Value": "0bqds5kcly"
         },
         {
           "Name": "label",
@@ -11761,13 +11761,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Uh4B+G63Ovcte0UI0fHRDhp+RXhEkRUcz9TcxHQVQ3I="
+          "Value": "sha256-lClOa0hr/ZmAcp5XLGOAS7+j9WYLlt0zuG+gBq24AUM="
         }
       ]
     },
     {
-      "Route": "_framework/Core.2kg65sb7h2.wasm.gz",
-      "AssetFile": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\obj\\Debug\\net9.0\\compressed\\wf9th6mjns-2kg65sb7h2.gz",
+      "Route": "_framework/Core.0bqds5kcly.wasm.gz",
+      "AssetFile": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\obj\\Debug\\net9.0\\compressed\\wf9th6mjns-0bqds5kcly.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11776,7 +11776,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2763"
+          "Value": "2765"
         },
         {
           "Name": "Content-Type",
@@ -11784,11 +11784,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"cSdeab0em+GtGVR84zI7c73D9HXV7P19OaC0U6FU5nA=\""
+          "Value": "\"FueV5pPfqfp52Tjri8nJodbVTwR7c4lJXvC8YPKxA5w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:52:18 GMT"
+          "Value": "Mon, 07 Apr 2025 10:59:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11806,7 +11806,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "2kg65sb7h2"
+          "Value": "0bqds5kcly"
         },
         {
           "Name": "label",
@@ -11814,12 +11814,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-cSdeab0em+GtGVR84zI7c73D9HXV7P19OaC0U6FU5nA="
+          "Value": "sha256-FueV5pPfqfp52Tjri8nJodbVTwR7c4lJXvC8YPKxA5w="
         }
       ]
     },
     {
-      "Route": "_framework/Core.j55gwx6mah.pdb",
+      "Route": "_framework/Core.28u1vuvm5r.pdb",
       "AssetFile": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Core.pdb",
       "Selectors": [],
       "ResponseHeaders": [
@@ -11837,11 +11837,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"F6IQNPx9AqRsKbR3OX43hxfLs40LQ9+6zUDIVz8mpdY=\""
+          "Value": "\"QnaYW9KNSto/+wUpLF8FJwiJzOeyqcEMRSV8q9zW7Jc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:52:13 GMT"
+          "Value": "Mon, 07 Apr 2025 10:59:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11851,7 +11851,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "j55gwx6mah"
+          "Value": "28u1vuvm5r"
         },
         {
           "Name": "label",
@@ -11859,13 +11859,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-F6IQNPx9AqRsKbR3OX43hxfLs40LQ9+6zUDIVz8mpdY="
+          "Value": "sha256-QnaYW9KNSto/+wUpLF8FJwiJzOeyqcEMRSV8q9zW7Jc="
         }
       ]
     },
     {
-      "Route": "_framework/Core.j55gwx6mah.pdb",
-      "AssetFile": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\obj\\Debug\\net9.0\\compressed\\fa37osnr3o-j55gwx6mah.gz",
+      "Route": "_framework/Core.28u1vuvm5r.pdb",
+      "AssetFile": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\obj\\Debug\\net9.0\\compressed\\fa37osnr3o-28u1vuvm5r.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -11884,11 +11884,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"KFZ6SzEk2ECIMalqfDUc2m/lR2E1OQD80XoXmnsb4ww=\""
+          "Value": "\"rTLlBoDHc499jGEzsErCsvhm4bfMrPhLTfCehUacKhk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:52:18 GMT"
+          "Value": "Mon, 07 Apr 2025 10:59:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11908,13 +11908,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"F6IQNPx9AqRsKbR3OX43hxfLs40LQ9+6zUDIVz8mpdY=\""
+          "Value": "W/\"QnaYW9KNSto/+wUpLF8FJwiJzOeyqcEMRSV8q9zW7Jc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "j55gwx6mah"
+          "Value": "28u1vuvm5r"
         },
         {
           "Name": "label",
@@ -11922,13 +11922,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-F6IQNPx9AqRsKbR3OX43hxfLs40LQ9+6zUDIVz8mpdY="
+          "Value": "sha256-QnaYW9KNSto/+wUpLF8FJwiJzOeyqcEMRSV8q9zW7Jc="
         }
       ]
     },
     {
-      "Route": "_framework/Core.j55gwx6mah.pdb.gz",
-      "AssetFile": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\obj\\Debug\\net9.0\\compressed\\fa37osnr3o-j55gwx6mah.gz",
+      "Route": "_framework/Core.28u1vuvm5r.pdb.gz",
+      "AssetFile": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\obj\\Debug\\net9.0\\compressed\\fa37osnr3o-28u1vuvm5r.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11945,11 +11945,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"KFZ6SzEk2ECIMalqfDUc2m/lR2E1OQD80XoXmnsb4ww=\""
+          "Value": "\"rTLlBoDHc499jGEzsErCsvhm4bfMrPhLTfCehUacKhk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:52:18 GMT"
+          "Value": "Mon, 07 Apr 2025 10:59:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11967,7 +11967,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "j55gwx6mah"
+          "Value": "28u1vuvm5r"
         },
         {
           "Name": "label",
@@ -11975,7 +11975,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-KFZ6SzEk2ECIMalqfDUc2m/lR2E1OQD80XoXmnsb4ww="
+          "Value": "sha256-rTLlBoDHc499jGEzsErCsvhm4bfMrPhLTfCehUacKhk="
         }
       ]
     },
@@ -11998,11 +11998,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"F6IQNPx9AqRsKbR3OX43hxfLs40LQ9+6zUDIVz8mpdY=\""
+          "Value": "\"QnaYW9KNSto/+wUpLF8FJwiJzOeyqcEMRSV8q9zW7Jc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:52:13 GMT"
+          "Value": "Mon, 07 Apr 2025 10:59:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12012,13 +12012,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-F6IQNPx9AqRsKbR3OX43hxfLs40LQ9+6zUDIVz8mpdY="
+          "Value": "sha256-QnaYW9KNSto/+wUpLF8FJwiJzOeyqcEMRSV8q9zW7Jc="
         }
       ]
     },
     {
       "Route": "_framework/Core.pdb",
-      "AssetFile": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\obj\\Debug\\net9.0\\compressed\\fa37osnr3o-j55gwx6mah.gz",
+      "AssetFile": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\obj\\Debug\\net9.0\\compressed\\fa37osnr3o-28u1vuvm5r.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -12037,11 +12037,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"KFZ6SzEk2ECIMalqfDUc2m/lR2E1OQD80XoXmnsb4ww=\""
+          "Value": "\"rTLlBoDHc499jGEzsErCsvhm4bfMrPhLTfCehUacKhk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:52:18 GMT"
+          "Value": "Mon, 07 Apr 2025 10:59:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12061,19 +12061,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"F6IQNPx9AqRsKbR3OX43hxfLs40LQ9+6zUDIVz8mpdY=\""
+          "Value": "W/\"QnaYW9KNSto/+wUpLF8FJwiJzOeyqcEMRSV8q9zW7Jc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-F6IQNPx9AqRsKbR3OX43hxfLs40LQ9+6zUDIVz8mpdY="
+          "Value": "sha256-QnaYW9KNSto/+wUpLF8FJwiJzOeyqcEMRSV8q9zW7Jc="
         }
       ]
     },
     {
       "Route": "_framework/Core.pdb.gz",
-      "AssetFile": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\obj\\Debug\\net9.0\\compressed\\fa37osnr3o-j55gwx6mah.gz",
+      "AssetFile": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\obj\\Debug\\net9.0\\compressed\\fa37osnr3o-28u1vuvm5r.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12090,11 +12090,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"KFZ6SzEk2ECIMalqfDUc2m/lR2E1OQD80XoXmnsb4ww=\""
+          "Value": "\"rTLlBoDHc499jGEzsErCsvhm4bfMrPhLTfCehUacKhk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:52:18 GMT"
+          "Value": "Mon, 07 Apr 2025 10:59:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12112,7 +12112,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-KFZ6SzEk2ECIMalqfDUc2m/lR2E1OQD80XoXmnsb4ww="
+          "Value": "sha256-rTLlBoDHc499jGEzsErCsvhm4bfMrPhLTfCehUacKhk="
         }
       ]
     },
@@ -12135,11 +12135,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Uh4B+G63Ovcte0UI0fHRDhp+RXhEkRUcz9TcxHQVQ3I=\""
+          "Value": "\"lClOa0hr/ZmAcp5XLGOAS7+j9WYLlt0zuG+gBq24AUM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:52:17 GMT"
+          "Value": "Mon, 07 Apr 2025 10:59:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12149,18 +12149,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Uh4B+G63Ovcte0UI0fHRDhp+RXhEkRUcz9TcxHQVQ3I="
+          "Value": "sha256-lClOa0hr/ZmAcp5XLGOAS7+j9WYLlt0zuG+gBq24AUM="
         }
       ]
     },
     {
       "Route": "_framework/Core.wasm",
-      "AssetFile": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\obj\\Debug\\net9.0\\compressed\\wf9th6mjns-2kg65sb7h2.gz",
+      "AssetFile": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\obj\\Debug\\net9.0\\compressed\\wf9th6mjns-0bqds5kcly.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000361794501"
+          "Quality": "0.000361532899"
         }
       ],
       "ResponseHeaders": [
@@ -12170,15 +12170,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2763"
+          "Value": "2765"
         },
         {
           "Name": "ETag",
-          "Value": "\"cSdeab0em+GtGVR84zI7c73D9HXV7P19OaC0U6FU5nA=\""
+          "Value": "\"FueV5pPfqfp52Tjri8nJodbVTwR7c4lJXvC8YPKxA5w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:52:18 GMT"
+          "Value": "Mon, 07 Apr 2025 10:59:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12198,19 +12198,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Uh4B+G63Ovcte0UI0fHRDhp+RXhEkRUcz9TcxHQVQ3I=\""
+          "Value": "W/\"lClOa0hr/ZmAcp5XLGOAS7+j9WYLlt0zuG+gBq24AUM=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Uh4B+G63Ovcte0UI0fHRDhp+RXhEkRUcz9TcxHQVQ3I="
+          "Value": "sha256-lClOa0hr/ZmAcp5XLGOAS7+j9WYLlt0zuG+gBq24AUM="
         }
       ]
     },
     {
       "Route": "_framework/Core.wasm.gz",
-      "AssetFile": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\obj\\Debug\\net9.0\\compressed\\wf9th6mjns-2kg65sb7h2.gz",
+      "AssetFile": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\obj\\Debug\\net9.0\\compressed\\wf9th6mjns-0bqds5kcly.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12219,7 +12219,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2763"
+          "Value": "2765"
         },
         {
           "Name": "Content-Type",
@@ -12227,11 +12227,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"cSdeab0em+GtGVR84zI7c73D9HXV7P19OaC0U6FU5nA=\""
+          "Value": "\"FueV5pPfqfp52Tjri8nJodbVTwR7c4lJXvC8YPKxA5w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:52:18 GMT"
+          "Value": "Mon, 07 Apr 2025 10:59:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12249,7 +12249,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-cSdeab0em+GtGVR84zI7c73D9HXV7P19OaC0U6FU5nA="
+          "Value": "sha256-FueV5pPfqfp52Tjri8nJodbVTwR7c4lJXvC8YPKxA5w="
         }
       ]
     },
@@ -73344,305 +73344,7 @@
       ]
     },
     {
-      "Route": "_framework/WorkShoppen.iyhdxphlkk.pdb",
-      "AssetFile": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\bin\\Debug\\net9.0\\wwwroot\\_framework\\WorkShoppen.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "42688"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"KrEAcPHC5Jdksauabu8wj4YDPKax/6MAlgMfobJ7pKE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:52:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "iyhdxphlkk"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/WorkShoppen.pdb"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-KrEAcPHC5Jdksauabu8wj4YDPKax/6MAlgMfobJ7pKE="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/WorkShoppen.iyhdxphlkk.pdb",
-      "AssetFile": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\obj\\Debug\\net9.0\\compressed\\67rjh5gfex-iyhdxphlkk.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000030627871"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "32649"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"rkKDjg208yuvi4wGyDZeyBVbAVac4fwS608uv0hVctc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:52:18 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"KrEAcPHC5Jdksauabu8wj4YDPKax/6MAlgMfobJ7pKE=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "iyhdxphlkk"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/WorkShoppen.pdb"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-KrEAcPHC5Jdksauabu8wj4YDPKax/6MAlgMfobJ7pKE="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/WorkShoppen.iyhdxphlkk.pdb.gz",
-      "AssetFile": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\obj\\Debug\\net9.0\\compressed\\67rjh5gfex-iyhdxphlkk.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "32649"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"rkKDjg208yuvi4wGyDZeyBVbAVac4fwS608uv0hVctc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:52:18 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "iyhdxphlkk"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/WorkShoppen.pdb.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-rkKDjg208yuvi4wGyDZeyBVbAVac4fwS608uv0hVctc="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/WorkShoppen.pdb",
-      "AssetFile": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\bin\\Debug\\net9.0\\wwwroot\\_framework\\WorkShoppen.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "42688"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"KrEAcPHC5Jdksauabu8wj4YDPKax/6MAlgMfobJ7pKE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:52:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-KrEAcPHC5Jdksauabu8wj4YDPKax/6MAlgMfobJ7pKE="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/WorkShoppen.pdb",
-      "AssetFile": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\obj\\Debug\\net9.0\\compressed\\67rjh5gfex-iyhdxphlkk.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000030627871"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "32649"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"rkKDjg208yuvi4wGyDZeyBVbAVac4fwS608uv0hVctc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:52:18 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"KrEAcPHC5Jdksauabu8wj4YDPKax/6MAlgMfobJ7pKE=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-KrEAcPHC5Jdksauabu8wj4YDPKax/6MAlgMfobJ7pKE="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/WorkShoppen.pdb.gz",
-      "AssetFile": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\obj\\Debug\\net9.0\\compressed\\67rjh5gfex-iyhdxphlkk.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "32649"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"rkKDjg208yuvi4wGyDZeyBVbAVac4fwS608uv0hVctc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:52:18 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-rkKDjg208yuvi4wGyDZeyBVbAVac4fwS608uv0hVctc="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/WorkShoppen.wasm",
+      "Route": "_framework/WorkShoppen.5650m44r9b.wasm",
       "AssetFile": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\bin\\Debug\\net9.0\\wwwroot\\_framework\\WorkShoppen.wasm",
       "Selectors": [],
       "ResponseHeaders": [
@@ -73652,7 +73354,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "50965"
+          "Value": "51477"
         },
         {
           "Name": "Content-Type",
@@ -73660,148 +73362,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"U73KsfO3MispeZ03kT98vJ1Kf1s5cVobqaZGsFFLHko=\""
+          "Value": "\"038PMDN1Jwn5hbzWIO41PgPU7bNFj1/XLbvlrjeaBec=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:52:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-U73KsfO3MispeZ03kT98vJ1Kf1s5cVobqaZGsFFLHko="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/WorkShoppen.wasm",
-      "AssetFile": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\obj\\Debug\\net9.0\\compressed\\040rcbpks2-z8hwa99wkc.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000048897364"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "20450"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"s4RLnJIkig2r4CpxCmTipKUPlGjywl6u1UkvjDa8c3k=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:52:18 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"U73KsfO3MispeZ03kT98vJ1Kf1s5cVobqaZGsFFLHko=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-U73KsfO3MispeZ03kT98vJ1Kf1s5cVobqaZGsFFLHko="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/WorkShoppen.wasm.gz",
-      "AssetFile": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\obj\\Debug\\net9.0\\compressed\\040rcbpks2-z8hwa99wkc.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "20450"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"s4RLnJIkig2r4CpxCmTipKUPlGjywl6u1UkvjDa8c3k=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:52:18 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-s4RLnJIkig2r4CpxCmTipKUPlGjywl6u1UkvjDa8c3k="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/WorkShoppen.z8hwa99wkc.wasm",
-      "AssetFile": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\bin\\Debug\\net9.0\\wwwroot\\_framework\\WorkShoppen.wasm",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "50965"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"U73KsfO3MispeZ03kT98vJ1Kf1s5cVobqaZGsFFLHko=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:52:17 GMT"
+          "Value": "Mon, 07 Apr 2025 11:19:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -73811,7 +73376,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "z8hwa99wkc"
+          "Value": "5650m44r9b"
         },
         {
           "Name": "label",
@@ -73819,18 +73384,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-U73KsfO3MispeZ03kT98vJ1Kf1s5cVobqaZGsFFLHko="
+          "Value": "sha256-038PMDN1Jwn5hbzWIO41PgPU7bNFj1/XLbvlrjeaBec="
         }
       ]
     },
     {
-      "Route": "_framework/WorkShoppen.z8hwa99wkc.wasm",
-      "AssetFile": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\obj\\Debug\\net9.0\\compressed\\040rcbpks2-z8hwa99wkc.gz",
+      "Route": "_framework/WorkShoppen.5650m44r9b.wasm",
+      "AssetFile": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\obj\\Debug\\net9.0\\compressed\\040rcbpks2-5650m44r9b.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000048897364"
+          "Quality": "0.000048721072"
         }
       ],
       "ResponseHeaders": [
@@ -73840,15 +73405,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "20450"
+          "Value": "20524"
         },
         {
           "Name": "ETag",
-          "Value": "\"s4RLnJIkig2r4CpxCmTipKUPlGjywl6u1UkvjDa8c3k=\""
+          "Value": "\"hmRxeUMAa2ew1n8BW60/V5jxWbQ0OFGn/9mFLRfhQgI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:52:18 GMT"
+          "Value": "Mon, 07 Apr 2025 11:19:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -73868,13 +73433,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"U73KsfO3MispeZ03kT98vJ1Kf1s5cVobqaZGsFFLHko=\""
+          "Value": "W/\"038PMDN1Jwn5hbzWIO41PgPU7bNFj1/XLbvlrjeaBec=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "z8hwa99wkc"
+          "Value": "5650m44r9b"
         },
         {
           "Name": "label",
@@ -73882,13 +73447,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-U73KsfO3MispeZ03kT98vJ1Kf1s5cVobqaZGsFFLHko="
+          "Value": "sha256-038PMDN1Jwn5hbzWIO41PgPU7bNFj1/XLbvlrjeaBec="
         }
       ]
     },
     {
-      "Route": "_framework/WorkShoppen.z8hwa99wkc.wasm.gz",
-      "AssetFile": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\obj\\Debug\\net9.0\\compressed\\040rcbpks2-z8hwa99wkc.gz",
+      "Route": "_framework/WorkShoppen.5650m44r9b.wasm.gz",
+      "AssetFile": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\obj\\Debug\\net9.0\\compressed\\040rcbpks2-5650m44r9b.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -73897,7 +73462,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "20450"
+          "Value": "20524"
         },
         {
           "Name": "Content-Type",
@@ -73905,11 +73470,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"s4RLnJIkig2r4CpxCmTipKUPlGjywl6u1UkvjDa8c3k=\""
+          "Value": "\"hmRxeUMAa2ew1n8BW60/V5jxWbQ0OFGn/9mFLRfhQgI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:52:18 GMT"
+          "Value": "Mon, 07 Apr 2025 11:19:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -73927,7 +73492,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "z8hwa99wkc"
+          "Value": "5650m44r9b"
         },
         {
           "Name": "label",
@@ -73935,7 +73500,442 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-s4RLnJIkig2r4CpxCmTipKUPlGjywl6u1UkvjDa8c3k="
+          "Value": "sha256-hmRxeUMAa2ew1n8BW60/V5jxWbQ0OFGn/9mFLRfhQgI="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/WorkShoppen.n86rnu2lks.pdb",
+      "AssetFile": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\bin\\Debug\\net9.0\\wwwroot\\_framework\\WorkShoppen.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "42732"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V2c9kVFjaxtOB/SdYxKn8UlM+QISrJf4a2T1qvWG8z4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 11:19:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "n86rnu2lks"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/WorkShoppen.pdb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-V2c9kVFjaxtOB/SdYxKn8UlM+QISrJf4a2T1qvWG8z4="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/WorkShoppen.n86rnu2lks.pdb",
+      "AssetFile": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\obj\\Debug\\net9.0\\compressed\\67rjh5gfex-n86rnu2lks.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000030601628"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32677"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TbSUb5P4qa3EjBR3F8HMA6Cq7ZHKgqEWo0gMReoNNjA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 11:19:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"V2c9kVFjaxtOB/SdYxKn8UlM+QISrJf4a2T1qvWG8z4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "n86rnu2lks"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/WorkShoppen.pdb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-V2c9kVFjaxtOB/SdYxKn8UlM+QISrJf4a2T1qvWG8z4="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/WorkShoppen.n86rnu2lks.pdb.gz",
+      "AssetFile": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\obj\\Debug\\net9.0\\compressed\\67rjh5gfex-n86rnu2lks.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32677"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TbSUb5P4qa3EjBR3F8HMA6Cq7ZHKgqEWo0gMReoNNjA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 11:19:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "n86rnu2lks"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/WorkShoppen.pdb.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TbSUb5P4qa3EjBR3F8HMA6Cq7ZHKgqEWo0gMReoNNjA="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/WorkShoppen.pdb",
+      "AssetFile": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\bin\\Debug\\net9.0\\wwwroot\\_framework\\WorkShoppen.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "42732"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V2c9kVFjaxtOB/SdYxKn8UlM+QISrJf4a2T1qvWG8z4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 11:19:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-V2c9kVFjaxtOB/SdYxKn8UlM+QISrJf4a2T1qvWG8z4="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/WorkShoppen.pdb",
+      "AssetFile": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\obj\\Debug\\net9.0\\compressed\\67rjh5gfex-n86rnu2lks.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000030601628"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32677"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TbSUb5P4qa3EjBR3F8HMA6Cq7ZHKgqEWo0gMReoNNjA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 11:19:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"V2c9kVFjaxtOB/SdYxKn8UlM+QISrJf4a2T1qvWG8z4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-V2c9kVFjaxtOB/SdYxKn8UlM+QISrJf4a2T1qvWG8z4="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/WorkShoppen.pdb.gz",
+      "AssetFile": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\obj\\Debug\\net9.0\\compressed\\67rjh5gfex-n86rnu2lks.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32677"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TbSUb5P4qa3EjBR3F8HMA6Cq7ZHKgqEWo0gMReoNNjA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 11:19:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TbSUb5P4qa3EjBR3F8HMA6Cq7ZHKgqEWo0gMReoNNjA="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/WorkShoppen.wasm",
+      "AssetFile": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\bin\\Debug\\net9.0\\wwwroot\\_framework\\WorkShoppen.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "51477"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"038PMDN1Jwn5hbzWIO41PgPU7bNFj1/XLbvlrjeaBec=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 11:19:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-038PMDN1Jwn5hbzWIO41PgPU7bNFj1/XLbvlrjeaBec="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/WorkShoppen.wasm",
+      "AssetFile": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\obj\\Debug\\net9.0\\compressed\\040rcbpks2-5650m44r9b.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000048721072"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20524"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hmRxeUMAa2ew1n8BW60/V5jxWbQ0OFGn/9mFLRfhQgI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 11:19:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"038PMDN1Jwn5hbzWIO41PgPU7bNFj1/XLbvlrjeaBec=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-038PMDN1Jwn5hbzWIO41PgPU7bNFj1/XLbvlrjeaBec="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/WorkShoppen.wasm.gz",
+      "AssetFile": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\obj\\Debug\\net9.0\\compressed\\040rcbpks2-5650m44r9b.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20524"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hmRxeUMAa2ew1n8BW60/V5jxWbQ0OFGn/9mFLRfhQgI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 11:19:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hmRxeUMAa2ew1n8BW60/V5jxWbQ0OFGn/9mFLRfhQgI="
         }
       ]
     },
@@ -74262,7 +74262,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 07:24:42 GMT"
+          "Value": "Mon, 07 Apr 2025 11:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -74323,7 +74323,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 07:24:42 GMT"
+          "Value": "Mon, 07 Apr 2025 11:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -74368,7 +74368,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 07:24:42 GMT"
+          "Value": "Mon, 07 Apr 2025 11:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -74423,7 +74423,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 07:24:42 GMT"
+          "Value": "Mon, 07 Apr 2025 11:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -74476,7 +74476,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 07:24:42 GMT"
+          "Value": "Mon, 07 Apr 2025 11:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -74513,7 +74513,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 07:24:42 GMT"
+          "Value": "Mon, 07 Apr 2025 11:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
