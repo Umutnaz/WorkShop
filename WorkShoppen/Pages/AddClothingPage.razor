@@ -7,6 +7,8 @@
 
 <h3>Tilføj Tøj</h3>
 
+<button @onclick="@(() => navMan.NavigateTo("/Loanedclothing"))">Låne-tøj</button>
+
 @if (currentUser == null)
 {
     <p>Du skal være logget ind for at tilføje tøj.</p>
@@ -36,6 +38,7 @@ else
 
 @code {
     private Clothing _newClothing = new Clothing();
+    
     private User? currentUser;
 
     protected override async Task OnInitializedAsync()
@@ -46,7 +49,7 @@ else
             navMan.NavigateTo("login/test");
         }
     }
-
+    
     private async Task AddClothing()
     {
         // Tilføj tøjet til den loggede bruger

@@ -47,9 +47,11 @@ public class LoginServiceClientside : ILoginService
             // I såfal, log bruger ind
             if (users.Any(x => x.Username == username && x.Password == password))
             {
-                User user = new User() { Username = username, Password = password };
+                var foundUser = users.First(x => x.Username == username && x.Password == password);
+                await localStorage.SetItemAsync("user", foundUser);
+
                 
-                await localStorage.SetItemAsync("user", user);
+                await localStorage.SetItemAsync("user", foundUser);
                 return true;
             }
            
@@ -59,6 +61,8 @@ public class LoginServiceClientside : ILoginService
 
         return false;
     }
+   
+
 
     public void CreateUser(User user)
     {
@@ -69,4 +73,11 @@ public class LoginServiceClientside : ILoginService
     {
         return users.Max(x => x.UserId);
     }
+    public async Task Logout()
+    {
+        await localStorage.RemoveItemAsync("user");
+    }
+
+
 }
+
