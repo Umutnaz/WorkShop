@@ -31,7 +31,8 @@ else
         </div>
         <div>
             <label for="type">Type:</label>
-            <InputSelect @bind-Value="_newClothing.Type">
+            <InputSelect id="type" @bind-Value="_newClothing.Type">
+                <option value=""></option>
                 @foreach (var s in types)
                 {
                     <option value="@s">@s</option>
