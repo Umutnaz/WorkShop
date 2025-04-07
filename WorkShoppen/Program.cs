@@ -14,7 +14,7 @@ builder.Services.AddSingleton(sp => new HttpClient { BaseAddress = new Uri(build
 builder.Services.AddBlazoredLocalStorage();
 
 builder.Services.AddScoped<ILoginService, LoginServiceClientside>();
-builder.Services.AddSingleton<IClothingService, ClothingServiceMock>();
+builder.Services.AddSingleton<IClothingService, ClothingServiceServer>();
 
 
 await builder.Build().RunAsync();

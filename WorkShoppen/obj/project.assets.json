@@ -448,13 +448,13 @@
           }
         }
       },
-      "Microsoft.NET.ILLink.Tasks/9.0.2": {
+      "Microsoft.NET.ILLink.Tasks/9.0.3": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Microsoft.NET.Sdk.WebAssembly.Pack/9.0.2": {
+      "Microsoft.NET.Sdk.WebAssembly.Pack/9.0.3": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.props": {},
@@ -643,6 +643,10 @@
       "Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "MongoDB.Bson": "3.3.0",
+          "MongoDB.Driver": "3.3.0"
+        },
         "compile": {
           "bin/placeholder/Core.dll": {}
         },
@@ -1098,13 +1102,13 @@
           }
         }
       },
-      "Microsoft.NET.ILLink.Tasks/9.0.2": {
+      "Microsoft.NET.ILLink.Tasks/9.0.3": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Microsoft.NET.Sdk.WebAssembly.Pack/9.0.2": {
+      "Microsoft.NET.Sdk.WebAssembly.Pack/9.0.3": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.props": {},
@@ -1271,6 +1275,10 @@
       "Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "MongoDB.Bson": "3.3.0",
+          "MongoDB.Driver": "3.3.0"
+        },
         "compile": {
           "bin/placeholder/Core.dll": {}
         },
@@ -2106,10 +2114,10 @@
         "microsoft.jsinterop.webassembly.nuspec"
       ]
     },
-    "Microsoft.NET.ILLink.Tasks/9.0.2": {
-      "sha512": "+KFnCLVPicEq99ko0tq+ycTvNLXHw0tImmTZjPloB/DOFLPT56KLfk5aS7wbgXRPzYhXTTBYLGaABea5mke77w==",
+    "Microsoft.NET.ILLink.Tasks/9.0.3": {
+      "sha512": "1rqGTfubVg0qj2PsK6esyq3PIxtYJYrN3LsYUV9RrvH3anmt3fT3ozYdAZZH4U8JU/pt5pPIUk8NBSu26wtekA==",
       "type": "package",
-      "path": "microsoft.net.illink.tasks/9.0.2",
+      "path": "microsoft.net.illink.tasks/9.0.3",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -2123,7 +2131,7 @@
         "build/Microsoft.NET.ILLink.Analyzers.props",
         "build/Microsoft.NET.ILLink.Tasks.props",
         "build/Microsoft.NET.ILLink.targets",
-        "microsoft.net.illink.tasks.9.0.2.nupkg.sha512",
+        "microsoft.net.illink.tasks.9.0.3.nupkg.sha512",
         "microsoft.net.illink.tasks.nuspec",
         "tools/net472/ILLink.Tasks.dll",
         "tools/net472/ILLink.Tasks.dll.config",
@@ -2157,10 +2165,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.NET.Sdk.WebAssembly.Pack/9.0.2": {
-      "sha512": "svOs6YArbcpL06ZWj+b4hNVlJC5m37ydSgS+1XJWJzQu5fdT7ToEOaik1yiNo9AD357PBEiUJWTlrIcwdF8IeA==",
+    "Microsoft.NET.Sdk.WebAssembly.Pack/9.0.3": {
+      "sha512": "DMmycEIk9lhnpvDMYprPo0eCJNv0g3jujnpREkormE8wQ8NfWjuh+Sj66V4FS+e+OE1jws4FbKdat0GPWwA92g==",
       "type": "package",
-      "path": "microsoft.net.sdk.webassembly.pack/9.0.2",
+      "path": "microsoft.net.sdk.webassembly.pack/9.0.3",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -2191,7 +2199,7 @@
         "build/Microsoft.NET.Sdk.WebAssembly.Pack.targets",
         "build/Wasm.web.config",
         "build/browser.runtimeconfig.template.json",
-        "microsoft.net.sdk.webassembly.pack.9.0.2.nupkg.sha512",
+        "microsoft.net.sdk.webassembly.pack.9.0.3.nupkg.sha512",
         "microsoft.net.sdk.webassembly.pack.nuspec",
         "tools/net472/Microsoft.NET.Sdk.WebAssembly.Pack.Tasks.dll",
         "tools/net472/Microsoft.NET.WebAssembly.Webcil.dll",
@@ -2553,25 +2561,25 @@
       "Core >= 1.0.0",
       "Microsoft.AspNetCore.Components.WebAssembly >= 9.0.3",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 9.0.3",
-      "Microsoft.NET.ILLink.Tasks >= 9.0.2",
-      "Microsoft.NET.Sdk.WebAssembly.Pack >= 9.0.2",
+      "Microsoft.NET.ILLink.Tasks >= 9.0.3",
+      "Microsoft.NET.Sdk.WebAssembly.Pack >= 9.0.3",
       "MongoDB.Driver >= 3.3.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\emann\\.nuget\\packages\\": {}
+    "/Users/MortenStaunstrup/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\WorkShoppen.csproj",
+      "projectUniqueName": "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/WorkShoppen.csproj",
       "projectName": "WorkShoppen",
-      "projectPath": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\WorkShoppen.csproj",
-      "packagesPath": "C:\\Users\\emann\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\obj\\",
+      "projectPath": "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/WorkShoppen.csproj",
+      "packagesPath": "/Users/MortenStaunstrup/.nuget/packages/",
+      "outputPath": "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\emann\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/MortenStaunstrup/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -2583,8 +2591,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\emann\\RiderProjects\\WorkShop\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\emann\\RiderProjects\\WorkShop\\Core\\Core.csproj"
+            "/Users/MortenStaunstrup/src/WorkShop/Core/Core.csproj": {
+              "projectPath": "/Users/MortenStaunstrup/src/WorkShop/Core/Core.csproj"
             }
           }
         }
@@ -2621,13 +2629,13 @@
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[9.0.2, )",
+            "version": "[9.0.3, )",
             "autoReferenced": true
           },
           "Microsoft.NET.Sdk.WebAssembly.Pack": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[9.0.2, )",
+            "version": "[9.0.3, )",
             "autoReferenced": true
           },
           "MongoDB.Driver": {
@@ -2649,7 +2657,7 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-            "version": "[9.0.2, 9.0.2]"
+            "version": "[9.0.3, 9.0.3]"
           }
         ],
         "frameworkReferences": {
@@ -2657,7 +2665,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\emann\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.202/PortableRuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

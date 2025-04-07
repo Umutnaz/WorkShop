@@ -13,61 +13,61 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = WorkShoppen
 build_property.RootNamespace = WorkShoppen
-build_property.ProjectDir = C:\Users\emann\RiderProjects\WorkShop\WorkShoppen\
+build_property.ProjectDir = /Users/MortenStaunstrup/src/WorkShop/WorkShoppen/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\emann\RiderProjects\WorkShop\WorkShoppen
+build_property.MSBuildProjectDirectory = /Users/MortenStaunstrup/src/WorkShop/WorkShoppen
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/emann/RiderProjects/WorkShop/WorkShoppen/App.razor]
+[/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/emann/RiderProjects/WorkShop/WorkShoppen/Pages/AddClothingPage.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkQ2xvdGhpbmdQYWdlLnJhem9y
+[/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/Pages/AddClothingPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWRkQ2xvdGhpbmdQYWdlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/emann/RiderProjects/WorkShop/WorkShoppen/Pages/ClothingPage.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xvdGhpbmdQYWdlLnJhem9y
+[/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/Pages/ClothingPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2xvdGhpbmdQYWdlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/emann/RiderProjects/WorkShop/WorkShoppen/Pages/CreateUserPage.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlVXNlclBhZ2UucmF6b3I=
+[/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/Pages/CreateUserPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ3JlYXRlVXNlclBhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/emann/RiderProjects/WorkShop/WorkShoppen/Pages/Home.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+[/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/emann/RiderProjects/WorkShop/WorkShoppen/Pages/LoanedClothingPage.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9hbmVkQ2xvdGhpbmdQYWdlLnJhem9y
+[/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/Pages/LoanedClothingPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTG9hbmVkQ2xvdGhpbmdQYWdlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/emann/RiderProjects/WorkShop/WorkShoppen/Pages/LoanPage.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9hblBhZ2UucmF6b3I=
+[/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/Pages/LoanPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTG9hblBhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/emann/RiderProjects/WorkShop/WorkShoppen/Pages/LoginPage.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW5QYWdlLnJhem9y
+[/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/Pages/LoginPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTG9naW5QYWdlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/emann/RiderProjects/WorkShop/WorkShoppen/_Imports.razor]
+[/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/emann/RiderProjects/WorkShop/WorkShoppen/Layout/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-p1e6xx3sr6
+[/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0L01haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-sraq7eq3g8
 
-[C:/Users/emann/RiderProjects/WorkShop/WorkShoppen/Layout/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-hrvybuenm6
+[/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0L05hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-49clx707sm
 
-[C:/Users/emann/RiderProjects/WorkShop/WorkShoppen/Pages/Test.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVzdC5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = b-zzwqzxfd8c
+[/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/Pages/Test.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVGVzdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-qhgjmdv8hr

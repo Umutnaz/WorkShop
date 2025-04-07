@@ -1,9 +1,11 @@
 using System.ComponentModel.DataAnnotations;
+using MongoDB.Bson.Serialization.Attributes;
 
 namespace Core;
 
 public class User
 {
+    [BsonId]
     public int UserId { get; set; }
     
     [Required]
@@ -16,7 +18,6 @@ public class User
     public string Email { get; set; }
     public string Role { get; set; }
     [Required]
-    [Range(8, 8, ErrorMessage = "Must be a valid phone number")]
     public int PhoneNumber { get; set; }
     
 }

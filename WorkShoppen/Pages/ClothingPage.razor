@@ -48,7 +48,6 @@ else
     {
         if (currentUser != null)
         {
-             _clothingService.ReturnClothing(currentUser.UserId, clothingId);
             _clothes = await _clothingService.GetClothingByUser(currentUser.UserId); // Opdatere tøjet
         }
     }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\emann\\RiderProjects\\WorkShop\\Core\\Core.csproj": {}
+    "/Users/MortenStaunstrup/src/WorkShop/Core/Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\emann\\RiderProjects\\WorkShop\\Core\\Core.csproj": {
+    "/Users/MortenStaunstrup/src/WorkShop/Core/Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\emann\\RiderProjects\\WorkShop\\Core\\Core.csproj",
+        "projectUniqueName": "/Users/MortenStaunstrup/src/WorkShop/Core/Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\emann\\RiderProjects\\WorkShop\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\emann\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\emann\\RiderProjects\\WorkShop\\Core\\obj\\",
+        "projectPath": "/Users/MortenStaunstrup/src/WorkShop/Core/Core.csproj",
+        "packagesPath": "/Users/MortenStaunstrup/.nuget/packages/",
+        "outputPath": "/Users/MortenStaunstrup/src/WorkShop/Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\emann\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/MortenStaunstrup/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -43,6 +43,16 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -59,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\emann\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
