@@ -63,7 +63,8 @@ else
         if (_currentUser == null)
             navMan.NavigateTo("login/test");
 
-        _clothes = await _clothingService.GetAllClothing();
+        _clothes = await _clothingService.GetClothingByUser(_currentUser.UserId);
+
     }
 
     private async Task DeleteClothing(int clothingId)

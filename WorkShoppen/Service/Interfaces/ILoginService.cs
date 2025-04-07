@@ -7,4 +7,5 @@ public interface ILoginService
     Task<bool> Login(string username, string password);
     void CreateUser(User user);
     int GetUserIdMax();
+    Task Logout();
 }

@@ -35,13 +35,13 @@ namespace WorkShoppen.Service
             return _clothing.ToArray();
         }
 
-        // Hent tøj ved ID
+        // Hent tøj ved clothing ID
         public async Task<Clothing> GetClothingById(int clothingId)
         {
             return _clothing.FirstOrDefault(c => c.ClothingId == clothingId);
         }
 
-        // Hent tøj kun for en specifik bruger
+        // Hent tøj kun ved user id
         public async Task<Clothing[]> GetClothingByUser(int userId)
         {
             return _clothing.Where(c => c.OwnerId == userId).ToArray();  // Hent kun tøj der tilhører den bruger
@@ -50,9 +50,16 @@ namespace WorkShoppen.Service
         // Tilføj tøj for en bruger
         public void AddClothing(Clothing clothing, int userId)
         {
-            clothing.OwnerId = userId; // Tøjet tilhører nu den loggede bruger
+            // Giv tøjet et unikt ID
+            int nextId = _clothing.Any() ? _clothing.Max(c => c.ClothingId) + 1 : 1;
+            clothing.ClothingId = nextId;
+
+            // Sæt den aktuelle bruger som ejer
+            clothing.OwnerId = userId;
+
             _clothing.Add(clothing);
         }
+
 
         // Slet tøj via ID
         public void DeleteClothingById(int clothingId)
@@ -83,14 +90,14 @@ namespace WorkShoppen.Service
                 }
             }
         }
-
+        
         // Returner tøj (fjern låneren)
         public void ReturnClothing(int currentUserUserId, int clothingId)
         {
             var clothing = _clothing.FirstOrDefault(c => c.ClothingId == clothingId);
             if (clothing != null)
             {
-                clothing.LoanerId = null; // Fjern låneren, når tøjet returneres
+                clothing.LoanerId = null;
             }
         }
     }
