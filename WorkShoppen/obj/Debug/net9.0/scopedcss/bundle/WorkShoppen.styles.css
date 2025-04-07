@@ -160,6 +160,90 @@ main[b-sraq7eq3g8] {
         overflow-y: auto;
     }
 }
+/* /Pages/Home.razor.rz.scp.css */
+.container[b-im1c3p56fi] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9e6f9; 
+}
+
+.box[b-im1c3p56fi] {
+    position: relative;
+    padding: 40px; 
+    border: 3px solid #ff99cc; 
+    text-align: center;
+    font-size: 1.5em; 
+    background-color: #ffe6f9; 
+    border-radius: 10px; 
+}
+
+.corner-image[b-im1c3p56fi] {
+    position: absolute;
+    top: 18px;  
+    right: 18px;  
+    width: 70px; 
+    height: auto;
+}
+
+button[b-im1c3p56fi] {
+    font-size: 1.2em;
+    padding: 12px 24px;
+    margin-top: 15px;
+    background-color: #ff66b2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+/ cursor: pointer;
+
+    button:hover {
+        background-color: #ff3385;
+    }
+}
+/* /Pages/LoginPage.razor.rz.scp.css */
+.container[b-87ew5poly5] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-color: rgba(243, 171, 207, 0.86); 
+}
+
+.login-box[b-87ew5poly5] {
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px; 
+    text-align: center;
+}
+
+.login-box h3[b-87ew5poly5] {
+    margin-bottom: 20px;
+}
+
+.login-box input[b-87ew5poly5] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-box button[b-87ew5poly5] {
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(243, 171, 207, 0.86);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-box button:hover[b-87ew5poly5] {
+    background-color: rgba(243, 171, 207, 0.86);
+}
 /* /Pages/Test.razor.rz.scp.css */
 h1[b-zzwqzxfd8c] {
     text-align: center;

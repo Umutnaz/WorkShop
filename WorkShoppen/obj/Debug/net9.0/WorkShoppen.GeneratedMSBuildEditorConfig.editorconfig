@@ -40,20 +40,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlVXNlclBhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/emann/RiderProjects/WorkShop/WorkShoppen/Pages/Home.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/emann/RiderProjects/WorkShop/WorkShoppen/Pages/LoanedClothingPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9hbmVkQ2xvdGhpbmdQYWdlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/emann/RiderProjects/WorkShop/WorkShoppen/Pages/LoanPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9hblBhZ2UucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/emann/RiderProjects/WorkShop/WorkShoppen/Pages/LoginPage.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW5QYWdlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/emann/RiderProjects/WorkShop/WorkShoppen/_Imports.razor]
@@ -67,6 +59,14 @@ build_metadata.AdditionalFiles.CssScope = b-p1e6xx3sr6
 [C:/Users/emann/RiderProjects/WorkShop/WorkShoppen/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-hrvybuenm6
+
+[C:/Users/emann/RiderProjects/WorkShop/WorkShoppen/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-im1c3p56fi
+
+[C:/Users/emann/RiderProjects/WorkShop/WorkShoppen/Pages/LoginPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW5QYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-87ew5poly5
 
 [C:/Users/emann/RiderProjects/WorkShop/WorkShoppen/Pages/Test.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVzdC5yYXpvcg==

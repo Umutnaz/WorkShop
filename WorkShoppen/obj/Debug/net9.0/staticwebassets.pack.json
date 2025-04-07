@@ -201,6 +201,10 @@
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
+      "Id": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\wwwroot\\pictures\\bestieesss.png",
+      "PackagePath": "staticwebassets\\pictures\\bestieesss.png"
+    },
+    {
       "Id": "C:\\Users\\emann\\RiderProjects\\WorkShop\\WorkShoppen\\wwwroot\\sample-data\\weather.json",
       "PackagePath": "staticwebassets\\sample-data\\weather.json"
     },

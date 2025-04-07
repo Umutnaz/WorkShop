@@ -4,14 +4,20 @@
 @inject ILoginService loginService
 @inject NavigationManager navMan
 
-<h3>Login</h3>
+<div class="container">
+    <div class="login-box">
+        <h3>Login</h3>
 
-<span>Username:</span>
-<InputText @bind-Value="@username" placeholder="Write your username"></InputText>
-<span>Password:</span>
-<InputText @bind-Value="@password" placeholder="Write your password" type="password"></InputText>
-<button @onclick="OnClickLogin">Login</button>
-<p style="color: red">@errorText</p>
+        <span>Username:</span>
+        <InputText @bind-Value="@username" placeholder="Write your username"></InputText>
+
+        <span>Password:</span>
+        <InputText @bind-Value="@password" placeholder="Write your password" type="password"></InputText>
+
+        <button @onclick="OnClickLogin">Login</button>
+        <p style="color: red">@errorText</p>
+    </div>
+</div>
 
 @code {
     string username = "";
@@ -24,7 +30,6 @@
     {
         await loginService.Logout();
     }
-
 
     private async Task OnClickLogin()
     {
