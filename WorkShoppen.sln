@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkShoppen", "WorkShoppen\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{28663AAC-EEAF-4BCE-A970-8B4B188FC66E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerAPI", "ServerAPI\ServerAPI.csproj", "{18624B3C-41ED-4F6A-BC16-F57DCDA0FA8D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{28663AAC-EEAF-4BCE-A970-8B4B188FC66E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28663AAC-EEAF-4BCE-A970-8B4B188FC66E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28663AAC-EEAF-4BCE-A970-8B4B188FC66E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18624B3C-41ED-4F6A-BC16-F57DCDA0FA8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18624B3C-41ED-4F6A-BC16-F57DCDA0FA8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18624B3C-41ED-4F6A-BC16-F57DCDA0FA8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18624B3C-41ED-4F6A-BC16-F57DCDA0FA8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

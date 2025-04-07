@@ -161,38 +161,38 @@ main[b-sraq7eq3g8] {
     }
 }
 /* /Pages/Test.razor.rz.scp.css */
-h1[b-zzwqzxfd8c] {
+h1[b-qhgjmdv8hr] {
     text-align: center;
 }
 
-.table-container[b-zzwqzxfd8c] {
+.table-container[b-qhgjmdv8hr] {
     margin-top: 20px;
 }
 
-table[b-zzwqzxfd8c] {
+table[b-qhgjmdv8hr] {
     width: 100%;
     border-collapse: collapse;
     margin-top: 10px;
 }
 
-th[b-zzwqzxfd8c], td[b-zzwqzxfd8c] {
+th[b-qhgjmdv8hr], td[b-qhgjmdv8hr] {
     border: 1px solid black;
     padding: 8px;
     text-align: left;
 }
 
-th[b-zzwqzxfd8c] {
+th[b-qhgjmdv8hr] {
     background-color: #f2f2f2;
 }
 
-.button-container[b-zzwqzxfd8c] {
+.button-container[b-qhgjmdv8hr] {
     margin-top: 20px;
     display: flex;
     gap: 10px;
     justify-content: center;
 }
 
-button[b-zzwqzxfd8c] {
+button[b-qhgjmdv8hr] {
     padding: 10px 15px;
     font-size: 16px;
     cursor: pointer;
@@ -202,6 +202,6 @@ button[b-zzwqzxfd8c] {
     border-radius: 5px;
 }
 
-button:hover[b-zzwqzxfd8c] {
+button:hover[b-qhgjmdv8hr] {
     background-color: #0056b3;
 }

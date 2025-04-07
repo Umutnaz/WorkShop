@@ -1,12 +1,16 @@
+using System.ComponentModel.DataAnnotations;
+using MongoDB.Bson.Serialization.Attributes;
+
 namespace Core;
 
 public class Clothing
 {
+    [BsonId]
     public int ClothingId { get; set; }
     public string Name { get; set; }
     public string Description { get; set; }
     public string Type { get; set; }
-    public string Image { get; set; }
+    public string Image { get; set; } = "";
     public string Color { get; set; }
     public string Size { get; set; }
     // Foreign key til ejeren af tøjet

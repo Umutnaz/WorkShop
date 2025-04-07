@@ -13,7 +13,7 @@
 }
 else
 {
-    <EditForm Model="_newClothing" OnValidSubmit="AddClothing">
+    <EditForm EditContext="EditContext" OnSubmit="HandleSubmit">
         <DataAnnotationsValidator />
         <ValidationSummary />
 
@@ -29,14 +29,33 @@ else
             <label for="size">Størrelse:</label>
             <InputText id="size" @bind-Value="_newClothing.Size" />
         </div>
+        <div>
+            <label for="type">Type:</label>
+            <InputSelect @bind-Value="_newClothing.Type">
+                @foreach (var s in types)
+                {
+                    <option value="@s">@s</option>
+                }
+            </InputSelect>
+        </div>
+        <div>
+            <label for="color">Farve:</label>
+            <InputText id="color" @bind-Value="_newClothing.Color" />
+        </div>
 
         <button type="submit">Tilføj Tøj</button>
     </EditForm>
 }
 
 @code {
-    private Clothing _newClothing = new Clothing();
+    private Clothing _newClothing;
+    private EditContext EditContext;
     private User? currentUser;
+
+    private string[] types = new[]
+    {
+        "sko", "bukser", "støvler"
+    };
 
     protected override async Task OnInitializedAsync()
     {
@@ -45,12 +64,24 @@ else
         {
             navMan.NavigateTo("login/test");
         }
+
+        _newClothing = new Clothing();
+        EditContext = new EditContext(_newClothing);
     }
 
     private async Task AddClothing()
     {
+        _newClothing.ClothingId = Random.Shared.Next(1, int.MaxValue);
         // Tilføj tøjet til den loggede bruger
-         _clothingService.AddClothing(_newClothing, currentUser.UserId);
+        _clothingService.AddClothing(_newClothing, currentUser.UserId);
         navMan.NavigateTo("/myclothing"); // Redirect til myclothing page efter tilføjelse
+    }
+
+    private void HandleSubmit()
+    {
+        if (EditContext.Validate())
+        {
+            AddClothing();
+        }
     }
 }

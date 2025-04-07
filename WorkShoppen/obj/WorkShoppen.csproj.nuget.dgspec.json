@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Anders\\RiderProjects\\WorkShopNew\\WorkShoppen\\WorkShoppen.csproj": {}
+    "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/WorkShoppen.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Anders\\RiderProjects\\WorkShopNew\\Core\\Core.csproj": {
+    "/Users/MortenStaunstrup/src/WorkShop/Core/Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Anders\\RiderProjects\\WorkShopNew\\Core\\Core.csproj",
+        "projectUniqueName": "/Users/MortenStaunstrup/src/WorkShop/Core/Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\Anders\\RiderProjects\\WorkShopNew\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\Anders\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Anders\\RiderProjects\\WorkShopNew\\Core\\obj\\",
+        "projectPath": "/Users/MortenStaunstrup/src/WorkShop/Core/Core.csproj",
+        "packagesPath": "/Users/MortenStaunstrup/.nuget/packages/",
+        "outputPath": "/Users/MortenStaunstrup/src/WorkShop/Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Anders\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/MortenStaunstrup/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -38,11 +38,21 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -59,21 +69,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Anders\\RiderProjects\\WorkShopNew\\WorkShoppen\\WorkShoppen.csproj": {
+    "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/WorkShoppen.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Anders\\RiderProjects\\WorkShopNew\\WorkShoppen\\WorkShoppen.csproj",
+        "projectUniqueName": "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/WorkShoppen.csproj",
         "projectName": "WorkShoppen",
-        "projectPath": "C:\\Users\\Anders\\RiderProjects\\WorkShopNew\\WorkShoppen\\WorkShoppen.csproj",
-        "packagesPath": "C:\\Users\\Anders\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Anders\\RiderProjects\\WorkShopNew\\WorkShoppen\\obj\\",
+        "projectPath": "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/WorkShoppen.csproj",
+        "packagesPath": "/Users/MortenStaunstrup/.nuget/packages/",
+        "outputPath": "/Users/MortenStaunstrup/src/WorkShop/WorkShoppen/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Anders\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/MortenStaunstrup/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -85,8 +95,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Anders\\RiderProjects\\WorkShopNew\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Anders\\RiderProjects\\WorkShopNew\\Core\\Core.csproj"
+              "/Users/MortenStaunstrup/src/WorkShop/Core/Core.csproj": {
+                "projectPath": "/Users/MortenStaunstrup/src/WorkShop/Core/Core.csproj"
               }
             }
           }
@@ -101,7 +111,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -123,13 +133,13 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.1, )",
+              "version": "[9.0.3, )",
               "autoReferenced": true
             },
             "Microsoft.NET.Sdk.WebAssembly.Pack": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.1, )",
+              "version": "[9.0.3, )",
               "autoReferenced": true
             },
             "MongoDB.Driver": {
@@ -151,7 +161,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[9.0.1, 9.0.1]"
+              "version": "[9.0.3, 9.0.3]"
             }
           ],
           "frameworkReferences": {
@@ -159,7 +169,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.202/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
