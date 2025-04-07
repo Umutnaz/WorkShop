@@ -16,4 +16,5 @@ builder.Services.AddBlazoredLocalStorage();
 builder.Services.AddScoped<ILoginService, LoginServiceClientside>();
 builder.Services.AddSingleton<IClothingService, ClothingServiceMock>();
 
+
 await builder.Build().RunAsync();

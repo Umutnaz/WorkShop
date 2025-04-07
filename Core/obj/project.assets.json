@@ -8,19 +8,19 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Anders\\.nuget\\packages\\": {}
+    "C:\\Users\\emann\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Anders\\RiderProjects\\WorkShopNew\\Core\\Core.csproj",
+      "projectUniqueName": "C:\\Users\\emann\\RiderProjects\\WorkShop\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "C:\\Users\\Anders\\RiderProjects\\WorkShopNew\\Core\\Core.csproj",
-      "packagesPath": "C:\\Users\\Anders\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Anders\\RiderProjects\\WorkShopNew\\Core\\obj\\",
+      "projectPath": "C:\\Users\\emann\\RiderProjects\\WorkShop\\Core\\Core.csproj",
+      "packagesPath": "C:\\Users\\emann\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\emann\\RiderProjects\\WorkShop\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Anders\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\emann\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -44,7 +44,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net9.0": {
@@ -65,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\emann\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
