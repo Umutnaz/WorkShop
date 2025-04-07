@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "WorkShoppen",
   "resources": {
-    "hash": "sha256-PP/NH2PkKTqkrl+4QjGU4iXVdkTPQQdOUdhMnift+qg=",
+    "hash": "sha256-M5qZZspCQbvwIYqD4u/OCPkxXKKwmVJGp7v4r9gFZkY=",
     "fingerprinting": {
       "Blazored.LocalStorage.12n6dz54qr.wasm": "Blazored.LocalStorage.wasm",
       "DnsClient.wommcjgqe2.wasm": "DnsClient.wasm",
@@ -208,10 +208,10 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "Core.k1tw5sppv7.wasm": "Core.wasm",
-      "Core.1ggkzi9vp0.pdb": "Core.pdb",
-      "WorkShoppen.nrdwb3wnxe.wasm": "WorkShoppen.wasm",
-      "WorkShoppen.ehrk16ncic.pdb": "WorkShoppen.pdb"
+      "Core.2kg65sb7h2.wasm": "Core.wasm",
+      "Core.j55gwx6mah.pdb": "Core.pdb",
+      "WorkShoppen.z8hwa99wkc.wasm": "WorkShoppen.wasm",
+      "WorkShoppen.iyhdxphlkk.pdb": "WorkShoppen.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.8bti36lthm.js": "sha256-HFADmT26AarHu4tMjFaTPxINmQjBJGtdPN+CKjtNMFE="
@@ -428,12 +428,12 @@
       "WindowsBase.ag32297siy.wasm": "sha256-BgyZxTgdU9rIYlNC9ZMiMjnvBAJSL0eQH8Y87o1M+q4=",
       "mscorlib.vt9pwshhot.wasm": "sha256-/aFxOaPc1iTNlJw0z4/RGEMD0nzl4qVE3SF4wMsLgp0=",
       "netstandard.or41gtprh3.wasm": "sha256-nD1KqAI5YYz+YohqHaZ5EmXi7Eq9Uy9sUknnI8sj1AM=",
-      "Core.k1tw5sppv7.wasm": "sha256-CEBJOcqaJmN+PcaQbQ5MvY39CCAOanjh05mUb8EDvO0=",
-      "WorkShoppen.nrdwb3wnxe.wasm": "sha256-TVv8HGyFgiuF9YBXnDUyzIlSNFuGn0gXhSXpMPy2X3o="
+      "Core.2kg65sb7h2.wasm": "sha256-Uh4B+G63Ovcte0UI0fHRDhp+RXhEkRUcz9TcxHQVQ3I=",
+      "WorkShoppen.z8hwa99wkc.wasm": "sha256-U73KsfO3MispeZ03kT98vJ1Kf1s5cVobqaZGsFFLHko="
     },
     "pdb": {
-      "Core.1ggkzi9vp0.pdb": "sha256-QWupZmF62PsJk3G4XN+z9SCvesNmxHZjPl8hzFd8zZE=",
-      "WorkShoppen.ehrk16ncic.pdb": "sha256-IrH/9h4JrgFd3HjlcB7XlGBzVIWXKZXemMF7k7hBfjw="
+      "Core.j55gwx6mah.pdb": "sha256-F6IQNPx9AqRsKbR3OX43hxfLs40LQ9+6zUDIVz8mpdY=",
+      "WorkShoppen.iyhdxphlkk.pdb": "sha256-KrEAcPHC5Jdksauabu8wj4YDPKax/6MAlgMfobJ7pKE="
     }
   },
   "cacheBootResources": true,
