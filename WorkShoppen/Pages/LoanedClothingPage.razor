@@ -1,0 +1,51 @@
+@page "/loanedclothing"
+@using Core
+@using WorkShoppen.Service.Interfaces
+@inject NavigationManager navMan
+@inject IClothingService _clothingService
+@inject ILoginService loginService
+
+<h3>Mine Lånte Tøj</h3>
+
+@if (_loanedClothes == null)
+{
+    <p>Loading your loaned clothes...</p>
+}
+else if (_loanedClothes.Length == 0)
+{
+    <p>Du har ikke lånt noget tøj endnu.</p>
+}
+else
+{
+    <div>
+        <h4>Her er dit lånte tøj:</h4>
+        <ul>
+            @foreach (var article in _loanedClothes)
+            {
+                <li>
+                    @article.Name - @article.Description (Størrelse: @article.Size)
+                </li>
+            }
+        </ul>
+    </div>
+}
+<div class="button-container">
+    <button @onclick="@(() => navMan.NavigateTo("/test"))">Tilbage</button>
+   
+</div>
+
+@code {
+    private Clothing[]? _loanedClothes;
+    private User? currentUser;
+
+    protected override async Task OnInitializedAsync()
+    {
+        currentUser = await loginService.GetUserLoggedIn();
+        if (currentUser == null)
+            navMan.NavigateTo("/login");
+
+        // Hent alle tøjstykker og filtrer dem for at vise kun de lånte stykker
+        var allClothes = await _clothingService.GetAllClothing();
+        _loanedClothes = allClothes.Where(c => c.LoanerId == currentUser.UserId).ToArray();
+    }
+}

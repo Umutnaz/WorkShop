@@ -2,7 +2,8 @@
 @inject NavigationManager navMan
 @using WorkShoppen.Service.Interfaces
 @using Core
-<h3>Test</h3>
+
+<h1>@_currentUser?.Username's Katalog</h1>
 
 @if (_clothes == null)
 {
@@ -10,31 +11,65 @@
 }
 else
 {
-    <ol>
-        @foreach (var article in _clothes)
-        {
-            <li>@article.Name, @article.Description, @article.Size</li>
-        }
-    </ol>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Navn</th>
+                    <th>Type</th>
+                    <th>Farve</th>
+                    <th>Størrelse</th>
+                    <th>Beskrivelse</th>
+                    <th>Udlejes til</th>
+                    <th>Handlinger</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in _clothes.Where(c => c.OwnerId == _currentUser?.UserId))
+                {
+                    <tr>
+                        <td>@item.Name</td>
+                        <td>@item.Type</td>
+                        <td>@item.Color</td>
+                        <td>@item.Size</td>
+                        <td>@item.Description</td>
+                        <td>@(item.LoanerId.HasValue ? $"Bruger ID: {item.LoanerId}" : "-")</td>
+                        <td>
+                            <button class="btn btn-danger btn-sm" @onclick="@(() => DeleteClothing(item.ClothingId))">Slet</button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
 }
 
-
+<div class="button-container">
+    <button @onclick="@(() => navMan.NavigateTo("/addclothing"))">Tilføj</button>
+    <button @onclick="@(() => navMan.NavigateTo("/laan"))">Lån</button>
+    <button @onclick="@(() => navMan.NavigateTo("/Loanedclothing"))">Låne-tøj</button>
+</div>
 
 @code {
     Clothing[]? _clothes;
-
-    User? currentUser;
+    User? _currentUser;
 
     [Inject] IClothingService _clothingService { get; set; }
     [Inject] ILoginService loginService { get; set; }
 
     protected override async Task OnInitializedAsync()
     {
-        currentUser = await loginService.GetUserLoggedIn();
-        if (currentUser == null)
+        _currentUser = await loginService.GetUserLoggedIn();
+        if (_currentUser == null)
             navMan.NavigateTo("login/test");
-        
+
         _clothes = await _clothingService.GetAllClothing();
     }
 
+    private async Task DeleteClothing(int clothingId)
+    {
+        _clothingService.DeleteClothingById(clothingId);
+        _clothes = await _clothingService.GetAllClothing(); // Opdater view
+        StateHasChanged();
+    }
 }

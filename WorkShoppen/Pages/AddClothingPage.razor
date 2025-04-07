@@ -1,0 +1,56 @@
+@page "/addclothing"
+@using Core
+@using WorkShoppen.Service.Interfaces
+@inject IClothingService _clothingService
+@inject ILoginService loginService
+@inject NavigationManager navMan
+
+<h3>Tilføj Tøj</h3>
+
+@if (currentUser == null)
+{
+    <p>Du skal være logget ind for at tilføje tøj.</p>
+}
+else
+{
+    <EditForm Model="_newClothing" OnValidSubmit="AddClothing">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div>
+            <label for="name">Navn:</label>
+            <InputText id="name" @bind-Value="_newClothing.Name" />
+        </div>
+        <div>
+            <label for="description">Beskrivelse:</label>
+            <InputText id="description" @bind-Value="_newClothing.Description" />
+        </div>
+        <div>
+            <label for="size">Størrelse:</label>
+            <InputText id="size" @bind-Value="_newClothing.Size" />
+        </div>
+
+        <button type="submit">Tilføj Tøj</button>
+    </EditForm>
+}
+
+@code {
+    private Clothing _newClothing = new Clothing();
+    private User? currentUser;
+
+    protected override async Task OnInitializedAsync()
+    {
+        currentUser = await loginService.GetUserLoggedIn();
+        if (currentUser == null)
+        {
+            navMan.NavigateTo("login/test");
+        }
+    }
+
+    private async Task AddClothing()
+    {
+        // Tilføj tøjet til den loggede bruger
+         _clothingService.AddClothing(_newClothing, currentUser.UserId);
+        navMan.NavigateTo("/myclothing"); // Redirect til myclothing page efter tilføjelse
+    }
+}

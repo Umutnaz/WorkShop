@@ -1,0 +1,66 @@
+@page "/laan"
+@using Core
+@using WorkShoppen.Service.Interfaces
+@inject NavigationManager navMan
+@inject IClothingService _clothingService
+@inject ILoginService loginService
+
+<h3>Vælg tøj at låne</h3>
+
+@if (_clothes == null)
+{
+    <p>Loading clothes...</p>
+}
+else
+{
+    <div>
+        <h4>Her er tøjet fra dine veninder:</h4>
+        <ul>
+            @foreach (var article in _clothes)
+            {
+                if (article.OwnerId != currentUser?.UserId)  // Kun vis tøj, der tilhører veninderne
+                {
+                    <li>
+                        @article.Name - @article.Description (Størrelse: @article.Size)
+                        <button @onclick="() => LoanClothing(article.ClothingId)">Lån</button>
+                    </li>
+                }
+            }
+        </ul>
+    </div>
+}
+
+@code {
+    private Clothing[]? _clothes;
+    private User? currentUser;
+
+    protected override async Task OnInitializedAsync()
+    {
+        currentUser = await loginService.GetUserLoggedIn();
+        if (currentUser == null)
+            navMan.NavigateTo("/login");
+
+        _clothes = await _clothingService.GetAllClothing();
+    }
+
+    private async Task LoanClothing(int clothingId)
+    {
+        if (currentUser != null)
+        {
+            // Find tøj, der skal lånes
+            var clothing = await _clothingService.GetClothingById(clothingId);
+
+            if (clothing != null && clothing.OwnerId != currentUser.UserId)  // Sørg for, at det ikke er eget tøj
+            {
+                // Opdater tøj til at være lånt af den nuværende bruger
+                clothing.LoanerId = currentUser.UserId;
+
+                // Opdater tøj i systemet
+                _clothingService.UpdateClothingById(clothingId, clothing);
+
+                // Naviger tilbage til kataloget
+                navMan.NavigateTo("/test");
+            }
+        }
+    }
+}

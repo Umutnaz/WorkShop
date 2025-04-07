@@ -1,54 +1,97 @@
 using Core;
 using WorkShoppen.Service.Interfaces;
+using System.Linq;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
-namespace WorkShoppen.Service;
-
-public class ClothingServiceMock : IClothingService
+namespace WorkShoppen.Service
 {
-    private List<Clothing> _clothing = new List<Clothing>()
+    public class ClothingServiceMock : IClothingService
     {
-        new Clothing()
+        // Liste af tøj
+        private List<Clothing> _clothing = new List<Clothing>()
         {
-            ClothingId = 1, Name = "Cute black boots", Type = "Boots", Color = "Black",
-            Description = "Very nace, barely used", Size = "38", OwnerId = 3, Image = ""
-        },
-        new Clothing()
+            new Clothing()
+            {
+                ClothingId = 1, Name = "Cute black boots", Type = "Boots", Color = "Black",
+                Description = "Very nice, barely used", Size = "38", OwnerId = 3, Image = ""
+            },
+            new Clothing()
+            {
+                ClothingId = 2, Name = "Zara dress", Type = "Dress", Color = "Red",
+                Description = "Super hot, small holes but it doesn't matter", Size = "M", OwnerId = 2, Image = "",
+                LoanerId = 3
+            },
+            new Clothing()
+            {
+                ClothingId = 3, Name = "Timberlands", Type = "Sneakers", Color = "Light Brown",
+                Description = "Boyfriends Timbs", Size = "42", OwnerId = 1, Image = "", LoanerId = 3
+            }
+        };
+
+        // Hent alt tøj
+        public async Task<Clothing[]> GetAllClothing()
         {
-            ClothingId = 2, Name = "Zara dress", Type = "Dress", Color = "Red",
-            Description = "Super hot, small holes but it doesn't matter", Size = "M", OwnerId = 2, Image = "",
-            LoanerId = 3
-        },
-        new Clothing()
-        {
-            ClothingId = 3, Name = "Timberlands", Type = "Sneakers", Color = "Light Brown",
-            Description = "Boyfriends Timbs", Size = "42", OwnerId = 1, Image = "", LoanerId = 3
+            return _clothing.ToArray();
         }
-    };
 
+        // Hent tøj ved ID
+        public async Task<Clothing> GetClothingById(int clothingId)
+        {
+            return _clothing.FirstOrDefault(c => c.ClothingId == clothingId);
+        }
 
-    public async Task<Clothing[]> GetAllClothing()
-    {
-        return _clothing.ToArray();
-    }
+        // Hent tøj kun for en specifik bruger
+        public async Task<Clothing[]> GetClothingByUser(int userId)
+        {
+            return _clothing.Where(c => c.OwnerId == userId).ToArray();  // Hent kun tøj der tilhører den bruger
+        }
 
-    public async Task<Clothing> GetClothingById(int clothingId)
-    {
-        return _clothing.FirstOrDefault(c => c.ClothingId == clothingId);
-    }
+        // Tilføj tøj for en bruger
+        public void AddClothing(Clothing clothing, int userId)
+        {
+            clothing.OwnerId = userId; // Tøjet tilhører nu den loggede bruger
+            _clothing.Add(clothing);
+        }
 
-    public void AddClothing(Clothing clothing)
-    {
-        _clothing.Add(clothing);
-    }
+        // Slet tøj via ID
+        public void DeleteClothingById(int clothingId)
+        {
+            _clothing.RemoveAll(c => c.ClothingId == clothingId);
+        }
 
-    public void DeleteClothingById(int clothingId)
-    {
-        _clothing.RemoveAll(c => c.ClothingId == clothingId);
-    }
+        // Opdater tøj ved ID
+        public void UpdateClothingById(int clothingId, Clothing updatedClothing)
+        {
+            var clothing = _clothing.FirstOrDefault(c => c.ClothingId == clothingId);
+            if (clothing != null)
+            {
+                clothing.Name = updatedClothing.Name;
+                clothing.Description = updatedClothing.Description;
+                clothing.Type = updatedClothing.Type;
+                clothing.Color = updatedClothing.Color;
+                clothing.Size = updatedClothing.Size;
+                clothing.OwnerId = updatedClothing.OwnerId;
 
-    public void UpdateClothingById(int clothingId, Clothing clothing)
-    {
-        _clothing.RemoveAll(c => c.ClothingId == clothingId);
-        _clothing.Add(clothing);
+                if (updatedClothing.LoanerId == null)
+                {
+                    clothing.LoanerId = null;  // Tøjet er blevet returneret
+                }
+                else
+                {
+                    clothing.LoanerId = updatedClothing.LoanerId;  // Opdater låneren
+                }
+            }
+        }
+
+        // Returner tøj (fjern låneren)
+        public void ReturnClothing(int currentUserUserId, int clothingId)
+        {
+            var clothing = _clothing.FirstOrDefault(c => c.ClothingId == clothingId);
+            if (clothing != null)
+            {
+                clothing.LoanerId = null; // Fjern låneren, når tøjet returneres
+            }
+        }
     }
 }
